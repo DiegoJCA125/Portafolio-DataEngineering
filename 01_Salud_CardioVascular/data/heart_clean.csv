@@ -1,0 +1,1026 @@
+edad,sexo,tipo_dolor_pecho,presion_arterial,colesterol,azucar_ayunas,electrocardiograma,frec_cardiaca_max,angina_ejercicio,depresion_st,pendiente_st,vasos_principales,talasemia,enfermedad_cardiaca,grupo_edad,nivel_colesterol
+52,Hombres,0,125,212,No,1,168,No,1.0,2,2,3,No,50-60,Limite
+53,Hombres,0,140,203,Alto,0,155,Si,3.1,0,0,3,No,50-60,Limite
+70,Hombres,0,145,174,No,1,125,Si,2.6,0,0,3,No,Mayor 60,Normal
+61,Hombres,0,148,203,No,1,161,No,0.0,2,1,3,No,Mayor 60,Limite
+62,Mujer,0,138,294,Alto,1,106,No,1.9,1,3,2,No,Mayor 60,Alto
+58,Mujer,0,100,248,No,0,122,No,1.0,1,0,2,Si,50-60,Alto
+58,Hombres,0,114,318,No,2,140,No,4.4,0,3,1,No,50-60,Alto
+55,Hombres,0,160,289,No,0,145,Si,0.8,1,1,3,No,50-60,Alto
+46,Hombres,0,120,249,No,0,144,No,0.8,2,0,3,No,40-50,Alto
+54,Hombres,0,122,286,No,0,116,Si,3.2,1,2,2,No,50-60,Alto
+71,Mujer,0,112,149,No,1,125,No,1.6,1,0,2,Si,Mayor 60,Normal
+43,Mujer,0,132,341,Alto,0,136,Si,3.0,1,0,3,No,40-50,Alto
+34,Mujer,1,118,210,No,1,192,No,0.7,2,0,2,Si,Menor 40,Limite
+51,Hombres,0,140,298,No,1,122,Si,4.2,1,3,3,No,50-60,Alto
+52,Hombres,0,128,204,Alto,1,156,Si,1.0,1,0,0,No,50-60,Limite
+34,Mujer,1,118,210,No,1,192,No,0.7,2,0,2,Si,Menor 40,Limite
+51,Mujer,2,140,308,No,0,142,No,1.5,2,1,2,Si,50-60,Alto
+54,Hombres,0,124,266,No,0,109,Si,2.2,1,1,3,No,50-60,Alto
+50,Mujer,1,120,244,No,1,162,No,1.1,2,0,2,Si,40-50,Alto
+58,Hombres,2,140,211,Alto,0,165,No,0.0,2,0,2,Si,50-60,Limite
+60,Hombres,2,140,185,No,0,155,No,3.0,1,0,2,No,50-60,Normal
+67,Mujer,0,106,223,No,1,142,No,0.3,2,2,2,Si,Mayor 60,Limite
+45,Hombres,0,104,208,No,0,148,Si,3.0,1,0,2,Si,40-50,Limite
+63,Mujer,2,135,252,No,0,172,No,0.0,2,0,2,Si,Mayor 60,Alto
+42,Mujer,2,120,209,No,1,173,No,0.0,1,0,2,Si,40-50,Limite
+61,Mujer,0,145,307,No,0,146,Si,1.0,1,0,3,No,Mayor 60,Alto
+44,Hombres,2,130,233,No,1,179,Si,0.4,2,0,2,Si,40-50,Limite
+58,Mujer,1,136,319,Alto,0,152,No,0.0,2,2,2,No,50-60,Alto
+56,Hombres,2,130,256,Alto,0,142,Si,0.6,1,1,1,No,50-60,Alto
+55,Mujer,0,180,327,No,2,117,Si,3.4,1,0,2,No,50-60,Alto
+44,Hombres,0,120,169,No,1,144,Si,2.8,0,0,1,No,40-50,Normal
+50,Mujer,1,120,244,No,1,162,No,1.1,2,0,2,Si,40-50,Alto
+57,Hombres,0,130,131,No,1,115,Si,1.2,1,1,3,No,50-60,Normal
+70,Hombres,2,160,269,No,1,112,Si,2.9,1,1,3,No,Mayor 60,Alto
+50,Hombres,2,129,196,No,1,163,No,0.0,2,0,2,Si,40-50,Normal
+46,Hombres,2,150,231,No,1,147,No,3.6,1,0,2,No,40-50,Limite
+51,Hombres,3,125,213,No,0,125,Si,1.4,2,1,2,Si,50-60,Limite
+59,Hombres,0,138,271,No,0,182,No,0.0,2,0,2,Si,50-60,Alto
+64,Hombres,0,128,263,No,1,105,Si,0.2,1,1,3,Si,Mayor 60,Alto
+57,Hombres,2,128,229,No,0,150,No,0.4,1,1,3,No,50-60,Limite
+65,Mujer,2,160,360,No,0,151,No,0.8,2,0,2,Si,Mayor 60,Alto
+54,Hombres,2,120,258,No,0,147,No,0.4,1,0,3,Si,50-60,Alto
+61,Mujer,0,130,330,No,0,169,No,0.0,2,0,2,No,Mayor 60,Alto
+46,Hombres,0,120,249,No,0,144,No,0.8,2,0,3,No,40-50,Alto
+55,Mujer,1,132,342,No,1,166,No,1.2,2,0,2,Si,50-60,Alto
+42,Hombres,0,140,226,No,1,178,No,0.0,2,0,2,Si,40-50,Limite
+41,Hombres,1,135,203,No,1,132,No,0.0,1,0,1,Si,40-50,Limite
+66,Mujer,0,178,228,Alto,1,165,Si,1.0,1,2,3,No,Mayor 60,Limite
+66,Mujer,2,146,278,No,0,152,No,0.0,1,1,2,Si,Mayor 60,Alto
+60,Hombres,0,117,230,Alto,1,160,Si,1.4,2,2,3,No,50-60,Limite
+58,Mujer,3,150,283,Alto,0,162,No,1.0,2,0,2,Si,50-60,Alto
+57,Mujer,0,140,241,No,1,123,Si,0.2,1,0,3,No,50-60,Alto
+38,Hombres,2,138,175,No,1,173,No,0.0,2,4,2,Si,Menor 40,Normal
+49,Hombres,2,120,188,No,1,139,No,2.0,1,3,3,No,40-50,Normal
+55,Hombres,0,140,217,No,1,111,Si,5.6,0,0,3,No,50-60,Limite
+55,Hombres,0,140,217,No,1,111,Si,5.6,0,0,3,No,50-60,Limite
+56,Hombres,3,120,193,No,0,162,No,1.9,1,0,3,Si,50-60,Normal
+48,Hombres,1,130,245,No,0,180,No,0.2,1,0,2,Si,40-50,Alto
+67,Hombres,2,152,212,No,0,150,No,0.8,1,0,3,No,Mayor 60,Limite
+57,Hombres,1,154,232,No,0,164,No,0.0,2,1,2,No,50-60,Limite
+29,Hombres,1,130,204,No,0,202,No,0.0,2,0,2,Si,Menor 40,Limite
+66,Mujer,2,146,278,No,0,152,No,0.0,1,1,2,Si,Mayor 60,Alto
+67,Hombres,0,100,299,No,0,125,Si,0.9,1,2,2,No,Mayor 60,Alto
+59,Hombres,2,150,212,Alto,1,157,No,1.6,2,0,2,Si,50-60,Limite
+29,Hombres,1,130,204,No,0,202,No,0.0,2,0,2,Si,Menor 40,Limite
+59,Hombres,3,170,288,No,0,159,No,0.2,1,0,3,No,50-60,Alto
+53,Hombres,2,130,197,Alto,0,152,No,1.2,0,0,2,Si,50-60,Normal
+42,Hombres,0,136,315,No,1,125,Si,1.8,1,0,1,No,40-50,Alto
+37,Mujer,2,120,215,No,1,170,No,0.0,2,0,2,Si,Menor 40,Limite
+62,Mujer,0,160,164,No,0,145,No,6.2,0,3,3,No,Mayor 60,Normal
+59,Hombres,0,170,326,No,0,140,Si,3.4,0,0,3,No,50-60,Alto
+61,Hombres,0,140,207,No,0,138,Si,1.9,2,1,3,No,Mayor 60,Limite
+56,Hombres,0,125,249,Alto,0,144,Si,1.2,1,1,2,No,50-60,Alto
+59,Hombres,0,140,177,No,1,162,Si,0.0,2,1,3,No,50-60,Normal
+48,Hombres,0,130,256,Alto,0,150,Si,0.0,2,2,3,No,40-50,Alto
+47,Hombres,2,138,257,No,0,156,No,0.0,2,0,2,Si,40-50,Alto
+48,Hombres,2,124,255,Alto,1,175,No,0.0,2,2,2,Si,40-50,Alto
+63,Hombres,0,140,187,No,0,144,Si,4.0,2,2,3,No,Mayor 60,Normal
+52,Hombres,1,134,201,No,1,158,No,0.8,2,1,2,Si,50-60,Limite
+52,Hombres,1,134,201,No,1,158,No,0.8,2,1,2,Si,50-60,Limite
+50,Hombres,2,140,233,No,1,163,No,0.6,1,1,3,No,40-50,Limite
+49,Hombres,2,118,149,No,0,126,No,0.8,2,3,2,No,40-50,Normal
+46,Hombres,2,150,231,No,1,147,No,3.6,1,0,2,No,40-50,Limite
+38,Hombres,2,138,175,No,1,173,No,0.0,2,4,2,Si,Menor 40,Normal
+37,Mujer,2,120,215,No,1,170,No,0.0,2,0,2,Si,Menor 40,Limite
+44,Hombres,1,120,220,No,1,170,No,0.0,2,0,2,Si,40-50,Limite
+58,Hombres,2,140,211,Alto,0,165,No,0.0,2,0,2,Si,50-60,Limite
+59,Mujer,0,174,249,No,1,143,Si,0.0,1,0,2,No,50-60,Alto
+62,Mujer,0,140,268,No,0,160,No,3.6,0,2,2,No,Mayor 60,Alto
+68,Hombres,0,144,193,Alto,1,141,No,3.4,1,2,3,No,Mayor 60,Normal
+54,Mujer,2,108,267,No,0,167,No,0.0,2,0,2,Si,50-60,Alto
+62,Mujer,0,124,209,No,1,163,No,0.0,2,0,2,Si,Mayor 60,Limite
+63,Hombres,0,140,187,No,0,144,Si,4.0,2,2,3,No,Mayor 60,Normal
+44,Hombres,0,120,169,No,1,144,Si,2.8,0,0,1,No,40-50,Normal
+62,Hombres,1,128,208,Alto,0,140,No,0.0,2,0,2,Si,Mayor 60,Limite
+45,Mujer,0,138,236,No,0,152,Si,0.2,1,0,2,Si,40-50,Limite
+57,Mujer,0,128,303,No,0,159,No,0.0,2,1,2,Si,50-60,Alto
+53,Hombres,0,123,282,No,1,95,Si,2.0,1,2,3,No,50-60,Alto
+65,Hombres,0,110,248,No,0,158,No,0.6,2,2,1,No,Mayor 60,Alto
+76,Mujer,2,140,197,No,2,116,No,1.1,1,0,2,Si,Mayor 60,Normal
+43,Mujer,2,122,213,No,1,165,No,0.2,1,0,2,Si,40-50,Limite
+57,Hombres,2,150,126,Alto,1,173,No,0.2,2,1,3,Si,50-60,Normal
+54,Hombres,1,108,309,No,1,156,No,0.0,2,0,3,Si,50-60,Alto
+47,Hombres,2,138,257,No,0,156,No,0.0,2,0,2,Si,40-50,Alto
+52,Hombres,3,118,186,No,0,190,No,0.0,1,0,1,Si,50-60,Normal
+47,Hombres,0,110,275,No,0,118,Si,1.0,1,1,2,No,40-50,Alto
+51,Hombres,0,140,299,No,1,173,Si,1.6,2,0,3,No,50-60,Alto
+62,Hombres,1,120,281,No,0,103,No,1.4,1,1,3,No,Mayor 60,Alto
+40,Hombres,0,152,223,No,1,181,No,0.0,2,0,3,No,Menor 40,Limite
+54,Hombres,0,110,206,No,0,108,Si,0.0,1,1,2,No,50-60,Limite
+44,Hombres,0,110,197,No,0,177,No,0.0,2,1,2,No,40-50,Normal
+53,Hombres,0,142,226,No,0,111,Si,0.0,2,0,3,Si,50-60,Limite
+48,Hombres,0,130,256,Alto,0,150,Si,0.0,2,2,3,No,40-50,Alto
+57,Hombres,0,110,335,No,1,143,Si,3.0,1,1,3,No,50-60,Alto
+59,Hombres,2,126,218,Alto,1,134,No,2.2,1,1,1,No,50-60,Limite
+61,Mujer,0,145,307,No,0,146,Si,1.0,1,0,3,No,Mayor 60,Alto
+63,Hombres,0,130,254,No,0,147,No,1.4,1,1,3,No,Mayor 60,Alto
+43,Hombres,0,120,177,No,0,120,Si,2.5,1,0,3,No,40-50,Normal
+29,Hombres,1,130,204,No,0,202,No,0.0,2,0,2,Si,Menor 40,Limite
+42,Hombres,1,120,295,No,1,162,No,0.0,2,0,2,Si,40-50,Alto
+54,Hombres,1,108,309,No,1,156,No,0.0,2,0,3,Si,50-60,Alto
+44,Hombres,0,120,169,No,1,144,Si,2.8,0,0,1,No,40-50,Normal
+60,Hombres,0,145,282,No,0,142,Si,2.8,1,2,3,No,50-60,Alto
+65,Mujer,2,140,417,Alto,0,157,No,0.8,2,1,2,Si,Mayor 60,Alto
+61,Hombres,0,120,260,No,1,140,Si,3.6,1,1,3,No,Mayor 60,Alto
+60,Mujer,3,150,240,No,1,171,No,0.9,2,0,2,Si,50-60,Limite
+66,Hombres,0,120,302,No,0,151,No,0.4,1,0,2,Si,Mayor 60,Alto
+53,Hombres,2,130,197,Alto,0,152,No,1.2,0,0,2,Si,50-60,Normal
+52,Hombres,2,138,223,No,1,169,No,0.0,2,4,2,Si,50-60,Limite
+57,Hombres,0,140,192,No,1,148,No,0.4,1,0,1,Si,50-60,Normal
+60,Mujer,3,150,240,No,1,171,No,0.9,2,0,2,Si,50-60,Limite
+51,Mujer,2,130,256,No,0,149,No,0.5,2,0,2,Si,50-60,Alto
+41,Hombres,1,135,203,No,1,132,No,0.0,1,0,1,Si,40-50,Limite
+50,Hombres,2,129,196,No,1,163,No,0.0,2,0,2,Si,40-50,Normal
+54,Hombres,1,108,309,No,1,156,No,0.0,2,0,3,Si,50-60,Alto
+58,Mujer,0,170,225,Alto,0,146,Si,2.8,1,2,1,No,50-60,Limite
+55,Mujer,1,132,342,No,1,166,No,1.2,2,0,2,Si,50-60,Alto
+64,Mujer,0,180,325,No,1,154,Si,0.0,2,0,2,Si,Mayor 60,Alto
+47,Hombres,2,138,257,No,0,156,No,0.0,2,0,2,Si,40-50,Alto
+41,Hombres,1,110,235,No,1,153,No,0.0,2,0,2,Si,40-50,Limite
+57,Hombres,0,152,274,No,1,88,Si,1.2,1,1,3,No,50-60,Alto
+63,Mujer,0,124,197,No,1,136,Si,0.0,1,0,2,No,Mayor 60,Normal
+61,Hombres,3,134,234,No,1,145,No,2.6,1,2,2,No,Mayor 60,Limite
+34,Hombres,3,118,182,No,0,174,No,0.0,2,0,2,Si,Menor 40,Normal
+47,Hombres,0,112,204,No,1,143,No,0.1,2,0,2,Si,40-50,Limite
+40,Hombres,0,110,167,No,0,114,Si,2.0,1,0,3,No,Menor 40,Normal
+51,Mujer,2,120,295,No,0,157,No,0.6,2,0,2,Si,50-60,Alto
+41,Hombres,0,110,172,No,0,158,No,0.0,2,0,3,No,40-50,Normal
+52,Hombres,3,152,298,Alto,1,178,No,1.2,1,0,3,Si,50-60,Alto
+39,Hombres,2,140,321,No,0,182,No,0.0,2,0,2,Si,Menor 40,Alto
+58,Hombres,0,114,318,No,2,140,No,4.4,0,3,1,No,50-60,Alto
+54,Hombres,1,192,283,No,0,195,No,0.0,2,1,3,No,50-60,Alto
+58,Hombres,0,125,300,No,0,171,No,0.0,2,2,3,No,50-60,Alto
+54,Hombres,2,120,258,No,0,147,No,0.4,1,0,3,Si,50-60,Alto
+63,Hombres,0,130,330,Alto,0,132,Si,1.8,2,3,3,No,Mayor 60,Alto
+54,Hombres,1,108,309,No,1,156,No,0.0,2,0,3,Si,50-60,Alto
+40,Hombres,3,140,199,No,1,178,Si,1.4,2,0,3,Si,Menor 40,Normal
+54,Hombres,2,120,258,No,0,147,No,0.4,1,0,3,Si,50-60,Alto
+67,Mujer,2,115,564,No,0,160,No,1.6,1,0,3,Si,Mayor 60,Alto
+41,Hombres,1,120,157,No,1,182,No,0.0,2,0,2,Si,40-50,Normal
+77,Hombres,0,125,304,No,0,162,Si,0.0,2,3,2,No,Mayor 60,Alto
+51,Hombres,2,100,222,No,1,143,Si,1.2,1,0,2,Si,50-60,Limite
+77,Hombres,0,125,304,No,0,162,Si,0.0,2,3,2,No,Mayor 60,Alto
+48,Hombres,0,124,274,No,0,166,No,0.5,1,0,3,No,40-50,Alto
+56,Hombres,0,125,249,Alto,0,144,Si,1.2,1,1,2,No,50-60,Alto
+59,Hombres,0,170,326,No,0,140,Si,3.4,0,0,3,No,50-60,Alto
+56,Hombres,0,132,184,No,0,105,Si,2.1,1,1,1,No,50-60,Normal
+57,Mujer,0,120,354,No,1,163,Si,0.6,2,0,2,Si,50-60,Alto
+43,Hombres,2,130,315,No,1,162,No,1.9,2,1,2,Si,40-50,Alto
+45,Mujer,1,112,160,No,1,138,No,0.0,1,0,2,Si,40-50,Normal
+43,Hombres,0,150,247,No,1,171,No,1.5,2,0,2,Si,40-50,Alto
+56,Hombres,0,130,283,Alto,0,103,Si,1.6,0,0,3,No,50-60,Alto
+56,Hombres,1,120,240,No,1,169,No,0.0,0,0,2,Si,50-60,Limite
+39,Mujer,2,94,199,No,1,179,No,0.0,2,0,2,Si,Menor 40,Normal
+54,Hombres,0,110,239,No,1,126,Si,2.8,1,1,3,No,50-60,Limite
+56,Mujer,0,200,288,Alto,0,133,Si,4.0,0,2,3,No,50-60,Alto
+56,Hombres,0,130,283,Alto,0,103,Si,1.6,0,0,3,No,50-60,Alto
+64,Hombres,0,120,246,No,0,96,Si,2.2,0,1,2,No,Mayor 60,Alto
+44,Hombres,0,110,197,No,0,177,No,0.0,2,1,2,No,40-50,Normal
+56,Mujer,0,134,409,No,0,150,Si,1.9,1,2,3,No,50-60,Alto
+63,Hombres,0,140,187,No,0,144,Si,4.0,2,2,3,No,Mayor 60,Normal
+64,Hombres,3,110,211,No,0,144,Si,1.8,1,0,2,Si,Mayor 60,Limite
+60,Hombres,0,140,293,No,0,170,No,1.2,1,2,3,No,50-60,Alto
+42,Hombres,2,130,180,No,1,150,No,0.0,2,0,2,Si,40-50,Normal
+45,Hombres,1,128,308,No,0,170,No,0.0,2,0,2,Si,40-50,Alto
+57,Hombres,0,165,289,Alto,0,124,No,1.0,1,3,3,No,50-60,Alto
+40,Hombres,0,110,167,No,0,114,Si,2.0,1,0,3,No,Menor 40,Normal
+56,Hombres,0,125,249,Alto,0,144,Si,1.2,1,1,2,No,50-60,Alto
+63,Hombres,0,130,254,No,0,147,No,1.4,1,1,3,No,Mayor 60,Alto
+64,Hombres,2,125,309,No,1,131,Si,1.8,1,0,3,No,Mayor 60,Alto
+41,Hombres,2,112,250,No,1,179,No,0.0,2,0,2,Si,40-50,Alto
+56,Hombres,1,130,221,No,0,163,No,0.0,2,0,3,Si,50-60,Limite
+67,Mujer,2,115,564,No,0,160,No,1.6,1,0,3,Si,Mayor 60,Alto
+69,Hombres,3,160,234,Alto,0,131,No,0.1,1,1,2,Si,Mayor 60,Limite
+67,Hombres,0,160,286,No,0,108,Si,1.5,1,3,2,No,Mayor 60,Alto
+59,Hombres,2,150,212,Alto,1,157,No,1.6,2,0,2,Si,50-60,Limite
+58,Hombres,0,100,234,No,1,156,No,0.1,2,1,3,No,50-60,Limite
+45,Hombres,0,115,260,No,0,185,No,0.0,2,0,2,Si,40-50,Alto
+60,Mujer,2,102,318,No,1,160,No,0.0,2,1,2,Si,50-60,Alto
+50,Hombres,0,144,200,No,0,126,Si,0.9,1,0,3,No,40-50,Normal
+62,Mujer,0,124,209,No,1,163,No,0.0,2,0,2,Si,Mayor 60,Limite
+34,Hombres,3,118,182,No,0,174,No,0.0,2,0,2,Si,Menor 40,Normal
+52,Hombres,3,152,298,Alto,1,178,No,1.2,1,0,3,Si,50-60,Alto
+64,Hombres,3,170,227,No,0,155,No,0.6,1,0,3,Si,Mayor 60,Limite
+66,Mujer,2,146,278,No,0,152,No,0.0,1,1,2,Si,Mayor 60,Alto
+42,Hombres,3,148,244,No,0,178,No,0.8,2,2,2,Si,40-50,Alto
+59,Hombres,2,126,218,Alto,1,134,No,2.2,1,1,1,No,50-60,Limite
+41,Hombres,2,112,250,No,1,179,No,0.0,2,0,2,Si,40-50,Alto
+38,Hombres,2,138,175,No,1,173,No,0.0,2,4,2,Si,Menor 40,Normal
+62,Hombres,1,120,281,No,0,103,No,1.4,1,1,3,No,Mayor 60,Alto
+42,Hombres,2,120,240,Alto,1,194,No,0.8,0,0,3,Si,40-50,Limite
+67,Hombres,0,100,299,No,0,125,Si,0.9,1,2,2,No,Mayor 60,Alto
+50,Hombres,0,150,243,No,0,128,No,2.6,1,0,3,No,40-50,Alto
+43,Hombres,2,130,315,No,1,162,No,1.9,2,1,2,Si,40-50,Alto
+45,Hombres,1,128,308,No,0,170,No,0.0,2,0,2,Si,40-50,Alto
+49,Hombres,1,130,266,No,1,171,No,0.6,2,0,2,Si,40-50,Alto
+65,Hombres,0,135,254,No,0,127,No,2.8,1,1,3,No,Mayor 60,Alto
+41,Hombres,1,120,157,No,1,182,No,0.0,2,0,2,Si,40-50,Normal
+46,Hombres,0,140,311,No,1,120,Si,1.8,1,2,3,No,40-50,Alto
+54,Hombres,0,122,286,No,0,116,Si,3.2,1,2,2,No,50-60,Alto
+57,Mujer,1,130,236,No,0,174,No,0.0,1,1,2,No,50-60,Limite
+63,Hombres,0,130,254,No,0,147,No,1.4,1,1,3,No,Mayor 60,Alto
+64,Hombres,3,110,211,No,0,144,Si,1.8,1,0,2,Si,Mayor 60,Limite
+39,Mujer,2,94,199,No,1,179,No,0.0,2,0,2,Si,Menor 40,Normal
+51,Hombres,0,140,261,No,0,186,Si,0.0,2,0,2,Si,50-60,Alto
+54,Hombres,2,150,232,No,0,165,No,1.6,2,0,3,Si,50-60,Limite
+49,Hombres,2,118,149,No,0,126,No,0.8,2,3,2,No,40-50,Normal
+44,Mujer,2,118,242,No,1,149,No,0.3,1,1,2,Si,40-50,Alto
+52,Hombres,1,128,205,Alto,1,184,No,0.0,2,0,2,Si,50-60,Limite
+66,Mujer,0,178,228,Alto,1,165,Si,1.0,1,2,3,No,Mayor 60,Limite
+58,Hombres,0,125,300,No,0,171,No,0.0,2,2,3,No,50-60,Alto
+56,Hombres,1,120,236,No,1,178,No,0.8,2,0,2,Si,50-60,Limite
+60,Hombres,0,125,258,No,0,141,Si,2.8,1,1,3,No,50-60,Alto
+41,Mujer,1,126,306,No,1,163,No,0.0,2,0,2,Si,40-50,Alto
+49,Mujer,0,130,269,No,1,163,No,0.0,2,0,2,Si,40-50,Alto
+64,Hombres,3,170,227,No,0,155,No,0.6,1,0,3,Si,Mayor 60,Limite
+49,Hombres,2,118,149,No,0,126,No,0.8,2,3,2,No,40-50,Normal
+57,Hombres,1,124,261,No,1,141,No,0.3,2,0,3,No,50-60,Alto
+60,Hombres,0,117,230,Alto,1,160,Si,1.4,2,2,3,No,50-60,Limite
+62,Mujer,0,150,244,No,1,154,Si,1.4,1,0,2,No,Mayor 60,Alto
+54,Mujer,1,132,288,Alto,0,159,Si,0.0,2,1,2,Si,50-60,Alto
+67,Hombres,2,152,212,No,0,150,No,0.8,1,0,3,No,Mayor 60,Limite
+38,Hombres,2,138,175,No,1,173,No,0.0,2,4,2,Si,Menor 40,Normal
+60,Hombres,2,140,185,No,0,155,No,3.0,1,0,2,No,50-60,Normal
+51,Hombres,2,125,245,Alto,0,166,No,2.4,1,0,2,Si,50-60,Alto
+44,Hombres,1,130,219,No,0,188,No,0.0,2,0,2,Si,40-50,Limite
+54,Hombres,1,192,283,No,0,195,No,0.0,2,1,3,No,50-60,Alto
+46,Hombres,0,140,311,No,1,120,Si,1.8,1,2,3,No,40-50,Alto
+39,Mujer,2,138,220,No,1,152,No,0.0,1,0,2,Si,Menor 40,Limite
+42,Hombres,2,130,180,No,1,150,No,0.0,2,0,2,Si,40-50,Normal
+47,Hombres,0,110,275,No,0,118,Si,1.0,1,1,2,No,40-50,Alto
+45,Mujer,1,112,160,No,1,138,No,0.0,1,0,2,Si,40-50,Normal
+55,Hombres,0,132,353,No,1,132,Si,1.2,1,1,3,No,50-60,Alto
+57,Hombres,0,165,289,Alto,0,124,No,1.0,1,3,3,No,50-60,Alto
+35,Hombres,0,120,198,No,1,130,Si,1.6,1,0,3,No,Menor 40,Normal
+62,Mujer,0,140,394,No,0,157,No,1.2,1,0,2,Si,Mayor 60,Alto
+35,Mujer,0,138,183,No,1,182,No,1.4,2,0,2,Si,Menor 40,Normal
+64,Mujer,0,180,325,No,1,154,Si,0.0,2,0,2,Si,Mayor 60,Alto
+38,Hombres,3,120,231,No,1,182,Si,3.8,1,0,3,No,Menor 40,Limite
+66,Hombres,0,120,302,No,0,151,No,0.4,1,0,2,Si,Mayor 60,Alto
+44,Hombres,2,120,226,No,1,169,No,0.0,2,0,2,Si,40-50,Limite
+54,Hombres,2,150,232,No,0,165,No,1.6,2,0,3,Si,50-60,Limite
+48,Hombres,0,122,222,No,0,186,No,0.0,2,0,2,Si,40-50,Limite
+55,Mujer,1,132,342,No,1,166,No,1.2,2,0,2,Si,50-60,Alto
+58,Mujer,0,170,225,Alto,0,146,Si,2.8,1,2,1,No,50-60,Limite
+45,Hombres,0,104,208,No,0,148,Si,3.0,1,0,2,Si,40-50,Limite
+53,Hombres,0,123,282,No,1,95,Si,2.0,1,2,3,No,50-60,Alto
+67,Hombres,0,120,237,No,1,71,No,1.0,1,0,2,No,Mayor 60,Limite
+58,Hombres,2,132,224,No,0,173,No,3.2,2,2,3,No,50-60,Limite
+71,Mujer,2,110,265,Alto,0,130,No,0.0,2,1,2,Si,Mayor 60,Alto
+43,Hombres,0,110,211,No,1,161,No,0.0,2,0,3,Si,40-50,Limite
+44,Hombres,1,120,263,No,1,173,No,0.0,2,0,3,Si,40-50,Alto
+39,Mujer,2,138,220,No,1,152,No,0.0,1,0,2,Si,Menor 40,Limite
+54,Hombres,0,110,206,No,0,108,Si,0.0,1,1,2,No,50-60,Limite
+66,Hombres,0,160,228,No,0,138,No,2.3,2,0,1,Si,Mayor 60,Limite
+56,Hombres,0,130,283,Alto,0,103,Si,1.6,0,0,3,No,50-60,Alto
+57,Hombres,0,132,207,No,1,168,Si,0.0,2,0,3,Si,50-60,Limite
+44,Hombres,1,130,219,No,0,188,No,0.0,2,0,2,Si,40-50,Limite
+55,Hombres,0,160,289,No,0,145,Si,0.8,1,1,3,No,50-60,Alto
+41,Mujer,1,105,198,No,1,168,No,0.0,2,1,2,Si,40-50,Normal
+45,Mujer,1,130,234,No,0,175,No,0.6,1,0,2,Si,40-50,Limite
+35,Hombres,1,122,192,No,1,174,No,0.0,2,0,2,Si,Menor 40,Normal
+41,Mujer,1,130,204,No,0,172,No,1.4,2,0,2,Si,40-50,Limite
+64,Hombres,3,110,211,No,0,144,Si,1.8,1,0,2,Si,Mayor 60,Limite
+58,Hombres,2,132,224,No,0,173,No,3.2,2,2,3,No,50-60,Limite
+71,Mujer,2,110,265,Alto,0,130,No,0.0,2,1,2,Si,Mayor 60,Alto
+64,Mujer,2,140,313,No,1,133,No,0.2,2,0,3,Si,Mayor 60,Alto
+71,Mujer,1,160,302,No,1,162,No,0.4,2,2,2,Si,Mayor 60,Alto
+58,Mujer,2,120,340,No,1,172,No,0.0,2,0,2,Si,50-60,Alto
+40,Hombres,0,152,223,No,1,181,No,0.0,2,0,3,No,Menor 40,Limite
+52,Hombres,2,138,223,No,1,169,No,0.0,2,4,2,Si,50-60,Limite
+58,Hombres,0,128,259,No,0,130,Si,3.0,1,2,3,No,50-60,Alto
+61,Hombres,2,150,243,Alto,1,137,Si,1.0,1,0,2,Si,Mayor 60,Alto
+59,Hombres,2,150,212,Alto,1,157,No,1.6,2,0,2,Si,50-60,Limite
+56,Mujer,0,200,288,Alto,0,133,Si,4.0,0,2,3,No,50-60,Alto
+67,Hombres,0,100,299,No,0,125,Si,0.9,1,2,2,No,Mayor 60,Alto
+67,Hombres,0,120,237,No,1,71,No,1.0,1,0,2,No,Mayor 60,Limite
+58,Hombres,0,150,270,No,0,111,Si,0.8,2,0,3,No,50-60,Alto
+35,Hombres,1,122,192,No,1,174,No,0.0,2,0,2,Si,Menor 40,Normal
+52,Hombres,1,120,325,No,1,172,No,0.2,2,0,2,Si,50-60,Alto
+46,Mujer,1,105,204,No,1,172,No,0.0,2,0,2,Si,40-50,Limite
+51,Hombres,2,94,227,No,1,154,Si,0.0,2,1,3,Si,50-60,Limite
+55,Mujer,1,132,342,No,1,166,No,1.2,2,0,2,Si,50-60,Alto
+60,Hombres,0,145,282,No,0,142,Si,2.8,1,2,3,No,50-60,Alto
+52,Mujer,2,136,196,No,0,169,No,0.1,1,0,2,Si,50-60,Normal
+62,Hombres,0,120,267,No,1,99,Si,1.8,1,2,3,No,Mayor 60,Alto
+44,Mujer,2,118,242,No,1,149,No,0.3,1,1,2,Si,40-50,Alto
+44,Hombres,1,120,220,No,1,170,No,0.0,2,0,2,Si,40-50,Limite
+59,Hombres,2,126,218,Alto,1,134,No,2.2,1,1,1,No,50-60,Limite
+56,Mujer,1,140,294,No,0,153,No,1.3,1,0,2,Si,50-60,Alto
+61,Hombres,0,120,260,No,1,140,Si,3.6,1,1,3,No,Mayor 60,Alto
+48,Hombres,0,130,256,Alto,0,150,Si,0.0,2,2,3,No,40-50,Alto
+70,Hombres,2,160,269,No,1,112,Si,2.9,1,1,3,No,Mayor 60,Alto
+74,Mujer,1,120,269,No,0,121,Si,0.2,2,1,2,Si,Mayor 60,Alto
+40,Hombres,3,140,199,No,1,178,Si,1.4,2,0,3,Si,Menor 40,Normal
+42,Hombres,3,148,244,No,0,178,No,0.8,2,2,2,Si,40-50,Alto
+64,Mujer,2,140,313,No,1,133,No,0.2,2,0,3,Si,Mayor 60,Alto
+63,Mujer,2,135,252,No,0,172,No,0.0,2,0,2,Si,Mayor 60,Alto
+59,Hombres,0,140,177,No,1,162,Si,0.0,2,1,3,No,50-60,Normal
+53,Mujer,2,128,216,No,0,115,No,0.0,2,0,0,Si,50-60,Limite
+53,Mujer,0,130,264,No,0,143,No,0.4,1,0,2,Si,50-60,Alto
+48,Mujer,2,130,275,No,1,139,No,0.2,2,0,2,Si,40-50,Alto
+45,Hombres,0,142,309,No,0,147,Si,0.0,1,3,3,No,40-50,Alto
+66,Hombres,1,160,246,No,1,120,Si,0.0,1,3,1,No,Mayor 60,Alto
+48,Hombres,1,130,245,No,0,180,No,0.2,1,0,2,Si,40-50,Alto
+56,Mujer,1,140,294,No,0,153,No,1.3,1,0,2,Si,50-60,Alto
+54,Hombres,1,192,283,No,0,195,No,0.0,2,1,3,No,50-60,Alto
+57,Hombres,0,150,276,No,0,112,Si,0.6,1,1,1,No,50-60,Alto
+70,Hombres,0,130,322,No,0,109,No,2.4,1,3,2,No,Mayor 60,Alto
+53,Mujer,2,128,216,No,0,115,No,0.0,2,0,0,Si,50-60,Limite
+37,Mujer,2,120,215,No,1,170,No,0.0,2,0,2,Si,Menor 40,Limite
+63,Mujer,0,108,269,No,1,169,Si,1.8,1,2,2,No,Mayor 60,Alto
+37,Hombres,2,130,250,No,1,187,No,3.5,0,0,2,Si,Menor 40,Alto
+54,Mujer,2,110,214,No,1,158,No,1.6,1,0,2,Si,50-60,Limite
+60,Hombres,0,130,206,No,0,132,Si,2.4,1,2,3,No,50-60,Limite
+58,Hombres,0,150,270,No,0,111,Si,0.8,2,0,3,No,50-60,Alto
+57,Hombres,2,150,126,Alto,1,173,No,0.2,2,1,3,Si,50-60,Normal
+54,Hombres,2,125,273,No,0,152,No,0.5,0,1,2,Si,50-60,Alto
+56,Hombres,2,130,256,Alto,0,142,Si,0.6,1,1,1,No,50-60,Alto
+60,Hombres,0,130,253,No,1,144,Si,1.4,2,1,3,No,50-60,Alto
+38,Hombres,2,138,175,No,1,173,No,0.0,2,4,2,Si,Menor 40,Normal
+44,Hombres,2,120,226,No,1,169,No,0.0,2,0,2,Si,40-50,Limite
+65,Mujer,2,155,269,No,1,148,No,0.8,2,0,2,Si,Mayor 60,Alto
+52,Hombres,2,172,199,Alto,1,162,No,0.5,2,0,3,Si,50-60,Normal
+41,Hombres,1,120,157,No,1,182,No,0.0,2,0,2,Si,40-50,Normal
+66,Hombres,1,160,246,No,1,120,Si,0.0,1,3,1,No,Mayor 60,Alto
+50,Hombres,0,150,243,No,0,128,No,2.6,1,0,3,No,40-50,Alto
+54,Mujer,2,108,267,No,0,167,No,0.0,2,0,2,Si,50-60,Alto
+43,Hombres,0,132,247,Alto,0,143,Si,0.1,1,4,3,No,40-50,Alto
+62,Mujer,2,130,263,No,1,97,No,1.2,1,1,3,No,Mayor 60,Alto
+66,Hombres,0,120,302,No,0,151,No,0.4,1,0,2,Si,Mayor 60,Alto
+50,Hombres,0,144,200,No,0,126,Si,0.9,1,0,3,No,40-50,Normal
+57,Hombres,0,110,335,No,1,143,Si,3.0,1,1,3,No,50-60,Alto
+57,Hombres,0,110,201,No,1,126,Si,1.5,1,0,1,Si,50-60,Limite
+57,Hombres,1,124,261,No,1,141,No,0.3,2,0,3,No,50-60,Alto
+46,Mujer,0,138,243,No,0,152,Si,0.0,1,0,2,Si,40-50,Alto
+59,Hombres,0,164,176,Alto,0,90,No,1.0,1,2,1,No,50-60,Normal
+67,Hombres,0,160,286,No,0,108,Si,1.5,1,3,2,No,Mayor 60,Alto
+59,Hombres,3,134,204,No,1,162,No,0.8,2,2,2,No,50-60,Limite
+53,Mujer,2,128,216,No,0,115,No,0.0,2,0,0,Si,50-60,Limite
+48,Hombres,0,122,222,No,0,186,No,0.0,2,0,2,Si,40-50,Limite
+62,Hombres,2,130,231,No,1,146,No,1.8,1,3,3,Si,Mayor 60,Limite
+43,Mujer,2,122,213,No,1,165,No,0.2,1,0,2,Si,40-50,Limite
+53,Hombres,2,130,246,Alto,0,173,No,0.0,2,3,2,Si,50-60,Alto
+57,Mujer,1,130,236,No,0,174,No,0.0,1,1,2,No,50-60,Limite
+53,Hombres,2,130,246,Alto,0,173,No,0.0,2,3,2,Si,50-60,Alto
+58,Hombres,2,112,230,No,0,165,No,2.5,1,1,3,No,50-60,Limite
+48,Hombres,1,110,229,No,1,168,No,1.0,0,0,3,No,40-50,Limite
+58,Hombres,2,105,240,No,0,154,Si,0.6,1,0,3,Si,50-60,Limite
+51,Hombres,2,110,175,No,1,123,No,0.6,2,0,2,Si,50-60,Normal
+43,Mujer,0,132,341,Alto,0,136,Si,3.0,1,0,3,No,40-50,Alto
+55,Hombres,0,132,353,No,1,132,Si,1.2,1,1,3,No,50-60,Alto
+54,Mujer,2,110,214,No,1,158,No,1.6,1,0,2,Si,50-60,Limite
+58,Hombres,1,120,284,No,0,160,No,1.8,1,0,2,No,50-60,Alto
+46,Mujer,2,142,177,No,0,160,Si,1.4,0,0,2,Si,40-50,Normal
+66,Hombres,0,160,228,No,0,138,No,2.3,2,0,1,Si,Mayor 60,Limite
+59,Hombres,1,140,221,No,1,164,Si,0.0,2,0,2,Si,50-60,Limite
+64,Mujer,0,130,303,No,1,122,No,2.0,1,2,2,Si,Mayor 60,Alto
+67,Hombres,0,120,237,No,1,71,No,1.0,1,0,2,No,Mayor 60,Limite
+52,Hombres,3,118,186,No,0,190,No,0.0,1,0,1,Si,50-60,Normal
+58,Hombres,0,146,218,No,1,105,No,2.0,1,1,3,No,50-60,Limite
+58,Hombres,2,132,224,No,0,173,No,3.2,2,2,3,No,50-60,Limite
+59,Hombres,0,110,239,No,0,142,Si,1.2,1,1,3,No,50-60,Limite
+58,Hombres,0,150,270,No,0,111,Si,0.8,2,0,3,No,50-60,Alto
+35,Hombres,0,126,282,No,0,156,Si,0.0,2,0,3,No,Menor 40,Alto
+51,Hombres,2,110,175,No,1,123,No,0.6,2,0,2,Si,50-60,Normal
+42,Mujer,2,120,209,No,1,173,No,0.0,1,0,2,Si,40-50,Limite
+77,Hombres,0,125,304,No,0,162,Si,0.0,2,3,2,No,Mayor 60,Alto
+64,Hombres,0,120,246,No,0,96,Si,2.2,0,1,2,No,Mayor 60,Alto
+63,Hombres,3,145,233,Alto,0,150,No,2.3,0,0,1,Si,Mayor 60,Limite
+58,Mujer,1,136,319,Alto,0,152,No,0.0,2,2,2,No,50-60,Alto
+45,Hombres,3,110,264,No,1,132,No,1.2,1,0,3,No,40-50,Alto
+51,Hombres,2,110,175,No,1,123,No,0.6,2,0,2,Si,50-60,Normal
+62,Mujer,0,160,164,No,0,145,No,6.2,0,3,3,No,Mayor 60,Normal
+63,Hombres,0,130,330,Alto,0,132,Si,1.8,2,3,3,No,Mayor 60,Alto
+66,Mujer,2,146,278,No,0,152,No,0.0,1,1,2,Si,Mayor 60,Alto
+68,Hombres,2,180,274,Alto,0,150,Si,1.6,1,0,3,No,Mayor 60,Alto
+40,Hombres,0,110,167,No,0,114,Si,2.0,1,0,3,No,Menor 40,Normal
+66,Hombres,0,160,228,No,0,138,No,2.3,2,0,1,Si,Mayor 60,Limite
+63,Hombres,3,145,233,Alto,0,150,No,2.3,0,0,1,Si,Mayor 60,Limite
+49,Hombres,2,120,188,No,1,139,No,2.0,1,3,3,No,40-50,Normal
+71,Mujer,0,112,149,No,1,125,No,1.6,1,0,2,Si,Mayor 60,Normal
+70,Hombres,1,156,245,No,0,143,No,0.0,2,0,2,Si,Mayor 60,Alto
+46,Mujer,1,105,204,No,1,172,No,0.0,2,0,2,Si,40-50,Limite
+61,Hombres,0,140,207,No,0,138,Si,1.9,2,1,3,No,Mayor 60,Limite
+56,Hombres,2,130,256,Alto,0,142,Si,0.6,1,1,1,No,50-60,Alto
+58,Hombres,2,140,211,Alto,0,165,No,0.0,2,0,2,Si,50-60,Limite
+58,Hombres,0,100,234,No,1,156,No,0.1,2,1,3,No,50-60,Limite
+46,Mujer,0,138,243,No,0,152,Si,0.0,1,0,2,Si,40-50,Alto
+46,Hombres,2,150,231,No,1,147,No,3.6,1,0,2,No,40-50,Limite
+41,Mujer,1,105,198,No,1,168,No,0.0,2,1,2,Si,40-50,Normal
+56,Hombres,0,125,249,Alto,0,144,Si,1.2,1,1,2,No,50-60,Alto
+57,Hombres,0,150,276,No,0,112,Si,0.6,1,1,1,No,50-60,Alto
+70,Hombres,0,130,322,No,0,109,No,2.4,1,3,2,No,Mayor 60,Alto
+59,Hombres,3,170,288,No,0,159,No,0.2,1,0,3,No,50-60,Alto
+41,Mujer,1,130,204,No,0,172,No,1.4,2,0,2,Si,40-50,Limite
+54,Hombres,2,125,273,No,0,152,No,0.5,0,1,2,Si,50-60,Alto
+52,Hombres,2,138,223,No,1,169,No,0.0,2,4,2,Si,50-60,Limite
+62,Mujer,0,124,209,No,1,163,No,0.0,2,0,2,Si,Mayor 60,Limite
+65,Mujer,2,160,360,No,0,151,No,0.8,2,0,2,Si,Mayor 60,Alto
+57,Mujer,0,128,303,No,0,159,No,0.0,2,1,2,Si,50-60,Alto
+42,Mujer,0,102,265,No,0,122,No,0.6,1,0,2,Si,40-50,Alto
+57,Mujer,0,120,354,No,1,163,Si,0.6,2,0,2,Si,50-60,Alto
+58,Mujer,1,136,319,Alto,0,152,No,0.0,2,2,2,No,50-60,Alto
+45,Hombres,0,142,309,No,0,147,Si,0.0,1,3,3,No,40-50,Alto
+51,Mujer,0,130,305,No,1,142,Si,1.2,1,0,3,No,50-60,Alto
+54,Mujer,2,160,201,No,1,163,No,0.0,2,1,2,Si,50-60,Limite
+57,Hombres,2,150,168,No,1,174,No,1.6,2,0,2,Si,50-60,Normal
+43,Hombres,0,132,247,Alto,0,143,Si,0.1,1,4,3,No,40-50,Alto
+47,Hombres,2,108,243,No,1,152,No,0.0,2,0,2,No,40-50,Alto
+67,Hombres,2,152,212,No,0,150,No,0.8,1,0,3,No,Mayor 60,Limite
+65,Mujer,0,150,225,No,0,114,No,1.0,1,3,3,No,Mayor 60,Limite
+60,Mujer,2,102,318,No,1,160,No,0.0,2,1,2,Si,50-60,Alto
+37,Hombres,2,130,250,No,1,187,No,3.5,0,0,2,Si,Menor 40,Alto
+41,Mujer,2,112,268,No,0,172,Si,0.0,2,0,2,Si,40-50,Alto
+57,Mujer,0,120,354,No,1,163,Si,0.6,2,0,2,Si,50-60,Alto
+59,Mujer,0,174,249,No,1,143,Si,0.0,1,0,2,No,50-60,Alto
+67,Hombres,0,120,229,No,0,129,Si,2.6,1,2,3,No,Mayor 60,Limite
+47,Hombres,2,130,253,No,1,179,No,0.0,2,0,2,Si,40-50,Alto
+58,Hombres,1,120,284,No,0,160,No,1.8,1,0,2,No,50-60,Alto
+62,Mujer,0,150,244,No,1,154,Si,1.4,1,0,2,No,Mayor 60,Alto
+60,Hombres,0,140,293,No,0,170,No,1.2,1,2,3,No,50-60,Alto
+57,Hombres,0,152,274,No,1,88,Si,1.2,1,1,3,No,50-60,Alto
+57,Hombres,2,150,168,No,1,174,No,1.6,2,0,2,Si,50-60,Normal
+47,Hombres,2,130,253,No,1,179,No,0.0,2,0,2,Si,40-50,Alto
+52,Hombres,1,128,205,Alto,1,184,No,0.0,2,0,2,Si,50-60,Limite
+53,Hombres,2,130,246,Alto,0,173,No,0.0,2,3,2,Si,50-60,Alto
+55,Hombres,0,160,289,No,0,145,Si,0.8,1,1,3,No,50-60,Alto
+51,Mujer,2,120,295,No,0,157,No,0.6,2,0,2,Si,50-60,Alto
+52,Hombres,0,112,230,No,1,160,No,0.0,2,1,2,No,50-60,Limite
+63,Mujer,0,150,407,No,0,154,No,4.0,1,3,3,No,Mayor 60,Alto
+49,Mujer,1,134,271,No,1,162,No,0.0,1,0,2,Si,40-50,Alto
+66,Mujer,0,178,228,Alto,1,165,Si,1.0,1,2,3,No,Mayor 60,Limite
+49,Mujer,1,134,271,No,1,162,No,0.0,1,0,2,Si,40-50,Alto
+65,Mujer,0,150,225,No,0,114,No,1.0,1,3,3,No,Mayor 60,Limite
+69,Hombres,3,160,234,Alto,0,131,No,0.1,1,1,2,Si,Mayor 60,Limite
+47,Hombres,2,108,243,No,1,152,No,0.0,2,0,2,No,40-50,Alto
+39,Mujer,2,138,220,No,1,152,No,0.0,1,0,2,Si,Menor 40,Limite
+43,Hombres,0,150,247,No,1,171,No,1.5,2,0,2,Si,40-50,Alto
+51,Hombres,0,140,261,No,0,186,Si,0.0,2,0,2,Si,50-60,Alto
+69,Hombres,2,140,254,No,0,146,No,2.0,1,3,3,No,Mayor 60,Alto
+48,Hombres,2,124,255,Alto,1,175,No,0.0,2,2,2,Si,40-50,Alto
+52,Hombres,3,118,186,No,0,190,No,0.0,1,0,1,Si,50-60,Normal
+43,Hombres,0,110,211,No,1,161,No,0.0,2,0,3,Si,40-50,Limite
+67,Mujer,2,115,564,No,0,160,No,1.6,1,0,3,Si,Mayor 60,Alto
+38,Hombres,2,138,175,No,1,173,No,0.0,2,4,2,Si,Menor 40,Normal
+44,Hombres,1,130,219,No,0,188,No,0.0,2,0,2,Si,40-50,Limite
+47,Hombres,0,110,275,No,0,118,Si,1.0,1,1,2,No,40-50,Alto
+61,Hombres,2,150,243,Alto,1,137,Si,1.0,1,0,2,Si,Mayor 60,Alto
+67,Hombres,0,160,286,No,0,108,Si,1.5,1,3,2,No,Mayor 60,Alto
+60,Mujer,3,150,240,No,1,171,No,0.9,2,0,2,Si,50-60,Limite
+64,Mujer,2,140,313,No,1,133,No,0.2,2,0,3,Si,Mayor 60,Alto
+58,Mujer,0,130,197,No,1,131,No,0.6,1,0,2,Si,50-60,Normal
+41,Hombres,2,130,214,No,0,168,No,2.0,1,0,2,Si,40-50,Limite
+48,Hombres,1,110,229,No,1,168,No,1.0,0,0,3,No,40-50,Limite
+57,Hombres,2,150,126,Alto,1,173,No,0.2,2,1,3,Si,50-60,Normal
+57,Hombres,0,165,289,Alto,0,124,No,1.0,1,3,3,No,50-60,Alto
+57,Hombres,2,128,229,No,0,150,No,0.4,1,1,3,No,50-60,Limite
+39,Hombres,2,140,321,No,0,182,No,0.0,2,0,2,Si,Menor 40,Alto
+58,Hombres,0,128,216,No,0,131,Si,2.2,1,3,3,No,50-60,Limite
+51,Mujer,0,130,305,No,1,142,Si,1.2,1,0,3,No,50-60,Alto
+63,Mujer,0,150,407,No,0,154,No,4.0,1,3,3,No,Mayor 60,Alto
+51,Hombres,0,140,298,No,1,122,Si,4.2,1,3,3,No,50-60,Alto
+35,Hombres,1,122,192,No,1,174,No,0.0,2,0,2,Si,Menor 40,Normal
+65,Hombres,0,110,248,No,0,158,No,0.6,2,2,1,No,Mayor 60,Alto
+62,Hombres,1,120,281,No,0,103,No,1.4,1,1,3,No,Mayor 60,Alto
+41,Hombres,0,110,172,No,0,158,No,0.0,2,0,3,No,40-50,Normal
+65,Hombres,0,135,254,No,0,127,No,2.8,1,1,3,No,Mayor 60,Alto
+54,Mujer,1,132,288,Alto,0,159,Si,0.0,2,1,2,Si,50-60,Alto
+61,Hombres,2,150,243,Alto,1,137,Si,1.0,1,0,2,Si,Mayor 60,Alto
+57,Mujer,0,128,303,No,0,159,No,0.0,2,1,2,Si,50-60,Alto
+57,Hombres,2,150,168,No,1,174,No,1.6,2,0,2,Si,50-60,Normal
+64,Hombres,2,125,309,No,1,131,Si,1.8,1,0,3,No,Mayor 60,Alto
+55,Hombres,0,132,353,No,1,132,Si,1.2,1,1,3,No,50-60,Alto
+51,Hombres,2,125,245,Alto,0,166,No,2.4,1,0,2,Si,50-60,Alto
+59,Hombres,0,135,234,No,1,161,No,0.5,1,0,3,Si,50-60,Limite
+68,Hombres,2,180,274,Alto,0,150,Si,1.6,1,0,3,No,Mayor 60,Alto
+57,Hombres,1,154,232,No,0,164,No,0.0,2,1,2,No,50-60,Limite
+54,Hombres,0,140,239,No,1,160,No,1.2,2,0,2,Si,50-60,Limite
+46,Mujer,2,142,177,No,0,160,Si,1.4,0,0,2,Si,40-50,Normal
+71,Mujer,0,112,149,No,1,125,No,1.6,1,0,2,Si,Mayor 60,Normal
+35,Mujer,0,138,183,No,1,182,No,1.4,2,0,2,Si,Menor 40,Normal
+46,Mujer,2,142,177,No,0,160,Si,1.4,0,0,2,Si,40-50,Normal
+45,Mujer,1,130,234,No,0,175,No,0.6,1,0,2,Si,40-50,Limite
+47,Hombres,2,108,243,No,1,152,No,0.0,2,0,2,No,40-50,Alto
+44,Mujer,2,118,242,No,1,149,No,0.3,1,1,2,Si,40-50,Alto
+61,Hombres,0,120,260,No,1,140,Si,3.6,1,1,3,No,Mayor 60,Alto
+41,Mujer,1,130,204,No,0,172,No,1.4,2,0,2,Si,40-50,Limite
+56,Mujer,0,200,288,Alto,0,133,Si,4.0,0,2,3,No,50-60,Alto
+55,Mujer,0,180,327,No,2,117,Si,3.4,1,0,2,No,50-60,Alto
+54,Mujer,1,132,288,Alto,0,159,Si,0.0,2,1,2,Si,50-60,Alto
+43,Hombres,0,120,177,No,0,120,Si,2.5,1,0,3,No,40-50,Normal
+44,Hombres,0,112,290,No,0,153,No,0.0,2,1,2,No,40-50,Alto
+54,Hombres,0,110,206,No,0,108,Si,0.0,1,1,2,No,50-60,Limite
+44,Hombres,1,120,220,No,1,170,No,0.0,2,0,2,Si,40-50,Limite
+49,Hombres,2,120,188,No,1,139,No,2.0,1,3,3,No,40-50,Normal
+60,Hombres,0,130,206,No,0,132,Si,2.4,1,2,3,No,50-60,Limite
+41,Mujer,1,105,198,No,1,168,No,0.0,2,1,2,Si,40-50,Normal
+49,Hombres,2,120,188,No,1,139,No,2.0,1,3,3,No,40-50,Normal
+61,Hombres,0,148,203,No,1,161,No,0.0,2,1,3,No,Mayor 60,Limite
+59,Hombres,0,140,177,No,1,162,Si,0.0,2,1,3,No,50-60,Normal
+58,Hombres,1,125,220,No,1,144,No,0.4,1,4,3,Si,50-60,Limite
+67,Mujer,2,152,277,No,1,172,No,0.0,2,1,2,Si,Mayor 60,Alto
+61,Hombres,0,148,203,No,1,161,No,0.0,2,1,3,No,Mayor 60,Limite
+58,Hombres,2,112,230,No,0,165,No,2.5,1,1,3,No,50-60,Limite
+51,Mujer,2,130,256,No,0,149,No,0.5,2,0,2,Si,50-60,Alto
+62,Mujer,0,160,164,No,0,145,No,6.2,0,3,3,No,Mayor 60,Normal
+62,Mujer,0,124,209,No,1,163,No,0.0,2,0,2,Si,Mayor 60,Limite
+59,Hombres,3,178,270,No,0,145,No,4.2,0,0,3,Si,50-60,Alto
+69,Hombres,3,160,234,Alto,0,131,No,0.1,1,1,2,Si,Mayor 60,Limite
+60,Mujer,0,150,258,No,0,157,No,2.6,1,2,3,No,50-60,Alto
+65,Mujer,2,155,269,No,1,148,No,0.8,2,0,2,Si,Mayor 60,Alto
+63,Mujer,0,124,197,No,1,136,Si,0.0,1,0,2,No,Mayor 60,Normal
+53,Mujer,0,138,234,No,0,160,No,0.0,2,0,2,Si,50-60,Limite
+54,Mujer,2,108,267,No,0,167,No,0.0,2,0,2,Si,50-60,Alto
+76,Mujer,2,140,197,No,2,116,No,1.1,1,0,2,Si,Mayor 60,Normal
+50,Mujer,2,120,219,No,1,158,No,1.6,1,0,2,Si,40-50,Limite
+52,Hombres,1,120,325,No,1,172,No,0.2,2,0,2,Si,50-60,Alto
+46,Hombres,0,120,249,No,0,144,No,0.8,2,0,3,No,40-50,Alto
+64,Hombres,3,170,227,No,0,155,No,0.6,1,0,3,Si,Mayor 60,Limite
+58,Hombres,0,128,259,No,0,130,Si,3.0,1,2,3,No,50-60,Alto
+44,Hombres,2,140,235,No,0,180,No,0.0,2,0,2,Si,40-50,Limite
+62,Mujer,0,140,394,No,0,157,No,1.2,1,0,2,Si,Mayor 60,Alto
+59,Hombres,3,134,204,No,1,162,No,0.8,2,2,2,No,50-60,Limite
+54,Hombres,2,125,273,No,0,152,No,0.5,0,1,2,Si,50-60,Alto
+48,Hombres,1,110,229,No,1,168,No,1.0,0,0,3,No,40-50,Limite
+70,Hombres,0,130,322,No,0,109,No,2.4,1,3,2,No,Mayor 60,Alto
+67,Mujer,0,106,223,No,1,142,No,0.3,2,2,2,Si,Mayor 60,Limite
+51,Mujer,2,120,295,No,0,157,No,0.6,2,0,2,Si,50-60,Alto
+68,Hombres,2,118,277,No,1,151,No,1.0,2,1,3,Si,Mayor 60,Alto
+69,Hombres,2,140,254,No,0,146,No,2.0,1,3,3,No,Mayor 60,Alto
+54,Hombres,0,122,286,No,0,116,Si,3.2,1,2,2,No,50-60,Alto
+43,Mujer,0,132,341,Alto,0,136,Si,3.0,1,0,3,No,40-50,Alto
+53,Hombres,2,130,197,Alto,0,152,No,1.2,0,0,2,Si,50-60,Normal
+58,Hombres,0,100,234,No,1,156,No,0.1,2,1,3,No,50-60,Limite
+67,Hombres,0,125,254,Alto,1,163,No,0.2,1,2,3,No,Mayor 60,Alto
+59,Hombres,0,140,177,No,1,162,Si,0.0,2,1,3,No,50-60,Normal
+48,Hombres,0,122,222,No,0,186,No,0.0,2,0,2,Si,40-50,Limite
+39,Mujer,2,94,199,No,1,179,No,0.0,2,0,2,Si,Menor 40,Normal
+67,Hombres,0,120,237,No,1,71,No,1.0,1,0,2,No,Mayor 60,Limite
+58,Mujer,0,130,197,No,1,131,No,0.6,1,0,2,Si,50-60,Normal
+65,Mujer,2,155,269,No,1,148,No,0.8,2,0,2,Si,Mayor 60,Alto
+42,Mujer,2,120,209,No,1,173,No,0.0,1,0,2,Si,40-50,Limite
+44,Hombres,0,112,290,No,0,153,No,0.0,2,1,2,No,40-50,Alto
+56,Hombres,0,132,184,No,0,105,Si,2.1,1,1,1,No,50-60,Normal
+53,Mujer,0,138,234,No,0,160,No,0.0,2,0,2,Si,50-60,Limite
+50,Mujer,0,110,254,No,0,159,No,0.0,2,0,2,Si,40-50,Alto
+41,Hombres,2,130,214,No,0,168,No,2.0,1,0,2,Si,40-50,Limite
+54,Mujer,2,160,201,No,1,163,No,0.0,2,1,2,Si,50-60,Limite
+42,Hombres,2,120,240,Alto,1,194,No,0.8,0,0,3,Si,40-50,Limite
+54,Mujer,2,135,304,Alto,1,170,No,0.0,2,0,2,Si,50-60,Alto
+60,Hombres,0,145,282,No,0,142,Si,2.8,1,2,3,No,50-60,Alto
+34,Hombres,3,118,182,No,0,174,No,0.0,2,0,2,Si,Menor 40,Normal
+44,Hombres,0,112,290,No,0,153,No,0.0,2,1,2,No,40-50,Alto
+60,Hombres,0,125,258,No,0,141,Si,2.8,1,1,3,No,50-60,Alto
+43,Hombres,0,150,247,No,1,171,No,1.5,2,0,2,Si,40-50,Alto
+52,Hombres,3,152,298,Alto,1,178,No,1.2,1,0,3,Si,50-60,Alto
+70,Hombres,0,130,322,No,0,109,No,2.4,1,3,2,No,Mayor 60,Alto
+62,Mujer,0,140,394,No,0,157,No,1.2,1,0,2,Si,Mayor 60,Alto
+58,Hombres,0,146,218,No,1,105,No,2.0,1,1,3,No,50-60,Limite
+46,Hombres,1,101,197,Alto,1,156,No,0.0,2,0,3,Si,40-50,Normal
+44,Hombres,2,140,235,No,0,180,No,0.0,2,0,2,Si,40-50,Limite
+55,Hombres,1,130,262,No,1,155,No,0.0,2,0,2,Si,50-60,Alto
+43,Hombres,0,120,177,No,0,120,Si,2.5,1,0,3,No,40-50,Normal
+55,Hombres,0,132,353,No,1,132,Si,1.2,1,1,3,No,50-60,Alto
+40,Hombres,3,140,199,No,1,178,Si,1.4,2,0,3,Si,Menor 40,Normal
+64,Hombres,2,125,309,No,1,131,Si,1.8,1,0,3,No,Mayor 60,Alto
+59,Hombres,0,164,176,Alto,0,90,No,1.0,1,2,1,No,50-60,Normal
+61,Mujer,0,145,307,No,0,146,Si,1.0,1,0,3,No,Mayor 60,Alto
+54,Hombres,0,122,286,No,0,116,Si,3.2,1,2,2,No,50-60,Alto
+74,Mujer,1,120,269,No,0,121,Si,0.2,2,1,2,Si,Mayor 60,Alto
+63,Mujer,0,108,269,No,1,169,Si,1.8,1,2,2,No,Mayor 60,Alto
+70,Hombres,2,160,269,No,1,112,Si,2.9,1,1,3,No,Mayor 60,Alto
+63,Mujer,0,108,269,No,1,169,Si,1.8,1,2,2,No,Mayor 60,Alto
+64,Hombres,0,145,212,No,0,132,No,2.0,1,2,1,No,Mayor 60,Limite
+61,Hombres,0,148,203,No,1,161,No,0.0,2,1,3,No,Mayor 60,Limite
+59,Hombres,1,140,221,No,1,164,Si,0.0,2,0,2,Si,50-60,Limite
+38,Hombres,2,138,175,No,1,173,No,0.0,2,4,2,Si,Menor 40,Normal
+58,Hombres,1,120,284,No,0,160,No,1.8,1,0,2,No,50-60,Alto
+63,Mujer,1,140,195,No,1,179,No,0.0,2,2,2,Si,Mayor 60,Normal
+62,Mujer,2,130,263,No,1,97,No,1.2,1,1,3,No,Mayor 60,Alto
+46,Hombres,0,140,311,No,1,120,Si,1.8,1,2,3,No,40-50,Alto
+58,Mujer,2,120,340,No,1,172,No,0.0,2,0,2,Si,50-60,Alto
+63,Mujer,1,140,195,No,1,179,No,0.0,2,2,2,Si,Mayor 60,Normal
+47,Hombres,2,130,253,No,1,179,No,0.0,2,0,2,Si,40-50,Alto
+71,Mujer,2,110,265,Alto,0,130,No,0.0,2,1,2,Si,Mayor 60,Alto
+66,Hombres,0,112,212,No,0,132,Si,0.1,2,1,2,No,Mayor 60,Limite
+42,Hombres,0,136,315,No,1,125,Si,1.8,1,0,1,No,40-50,Alto
+64,Hombres,0,145,212,No,0,132,No,2.0,1,2,1,No,Mayor 60,Limite
+55,Mujer,0,180,327,No,2,117,Si,3.4,1,0,2,No,50-60,Alto
+43,Mujer,0,132,341,Alto,0,136,Si,3.0,1,0,3,No,40-50,Alto
+55,Mujer,0,128,205,No,2,130,Si,2.0,1,1,3,No,50-60,Limite
+58,Mujer,0,170,225,Alto,0,146,Si,2.8,1,2,1,No,50-60,Limite
+55,Hombres,0,140,217,No,1,111,Si,5.6,0,0,3,No,50-60,Limite
+51,Mujer,0,130,305,No,1,142,Si,1.2,1,0,3,No,50-60,Alto
+50,Mujer,2,120,219,No,1,158,No,1.6,1,0,2,Si,40-50,Limite
+43,Hombres,0,115,303,No,1,181,No,1.2,1,0,2,Si,40-50,Alto
+41,Mujer,1,126,306,No,1,163,No,0.0,2,0,2,Si,40-50,Alto
+49,Hombres,1,130,266,No,1,171,No,0.6,2,0,2,Si,40-50,Alto
+65,Hombres,0,110,248,No,0,158,No,0.6,2,2,1,No,Mayor 60,Alto
+57,Hombres,0,152,274,No,1,88,Si,1.2,1,1,3,No,50-60,Alto
+48,Hombres,0,130,256,Alto,0,150,Si,0.0,2,2,3,No,40-50,Alto
+62,Mujer,0,138,294,Alto,1,106,No,1.9,1,3,2,No,Mayor 60,Alto
+61,Hombres,3,134,234,No,1,145,No,2.6,1,2,2,No,Mayor 60,Limite
+59,Hombres,3,178,270,No,0,145,No,4.2,0,0,3,Si,50-60,Alto
+69,Hombres,2,140,254,No,0,146,No,2.0,1,3,3,No,Mayor 60,Alto
+58,Hombres,2,132,224,No,0,173,No,3.2,2,2,3,No,50-60,Limite
+38,Hombres,3,120,231,No,1,182,Si,3.8,1,0,3,No,Menor 40,Limite
+69,Mujer,3,140,239,No,1,151,No,1.8,2,2,2,Si,Mayor 60,Limite
+65,Hombres,3,138,282,Alto,0,174,No,1.4,1,1,2,No,Mayor 60,Alto
+45,Hombres,3,110,264,No,1,132,No,1.2,1,0,3,No,40-50,Alto
+49,Hombres,1,130,266,No,1,171,No,0.6,2,0,2,Si,40-50,Alto
+45,Mujer,1,130,234,No,0,175,No,0.6,1,0,2,Si,40-50,Limite
+61,Hombres,0,138,166,No,0,125,Si,3.6,1,1,2,No,Mayor 60,Normal
+52,Hombres,0,125,212,No,1,168,No,1.0,2,2,3,No,50-60,Limite
+53,Mujer,0,130,264,No,0,143,No,0.4,1,0,2,Si,50-60,Alto
+59,Mujer,0,174,249,No,1,143,Si,0.0,1,0,2,No,50-60,Alto
+58,Mujer,2,120,340,No,1,172,No,0.0,2,0,2,Si,50-60,Alto
+65,Hombres,3,138,282,Alto,0,174,No,1.4,1,1,2,No,Mayor 60,Alto
+58,Mujer,0,130,197,No,1,131,No,0.6,1,0,2,Si,50-60,Normal
+46,Mujer,0,138,243,No,0,152,Si,0.0,1,0,2,Si,40-50,Alto
+56,Mujer,0,134,409,No,0,150,Si,1.9,1,2,3,No,50-60,Alto
+64,Hombres,0,128,263,No,1,105,Si,0.2,1,1,3,Si,Mayor 60,Alto
+65,Hombres,0,120,177,No,1,140,No,0.4,2,0,3,Si,Mayor 60,Normal
+44,Hombres,2,120,226,No,1,169,No,0.0,2,0,2,Si,40-50,Limite
+50,Hombres,0,150,243,No,0,128,No,2.6,1,0,3,No,40-50,Alto
+47,Hombres,2,108,243,No,1,152,No,0.0,2,0,2,No,40-50,Alto
+64,Mujer,0,130,303,No,1,122,No,2.0,1,2,2,Si,Mayor 60,Alto
+71,Mujer,0,112,149,No,1,125,No,1.6,1,0,2,Si,Mayor 60,Normal
+45,Mujer,1,130,234,No,0,175,No,0.6,1,0,2,Si,40-50,Limite
+62,Hombres,0,120,267,No,1,99,Si,1.8,1,2,3,No,Mayor 60,Alto
+41,Hombres,1,120,157,No,1,182,No,0.0,2,0,2,Si,40-50,Normal
+66,Mujer,3,150,226,No,1,114,No,2.6,0,0,2,Si,Mayor 60,Limite
+56,Hombres,0,130,283,Alto,0,103,Si,1.6,0,0,3,No,50-60,Alto
+41,Mujer,1,126,306,No,1,163,No,0.0,2,0,2,Si,40-50,Alto
+41,Hombres,1,110,235,No,1,153,No,0.0,2,0,2,Si,40-50,Limite
+57,Mujer,1,130,236,No,0,174,No,0.0,1,1,2,No,50-60,Limite
+39,Mujer,2,138,220,No,1,152,No,0.0,1,0,2,Si,Menor 40,Limite
+64,Hombres,2,125,309,No,1,131,Si,1.8,1,0,3,No,Mayor 60,Alto
+59,Hombres,0,138,271,No,0,182,No,0.0,2,0,2,Si,50-60,Alto
+61,Hombres,0,138,166,No,0,125,Si,3.6,1,1,2,No,Mayor 60,Normal
+58,Hombres,0,114,318,No,2,140,No,4.4,0,3,1,No,50-60,Alto
+47,Hombres,0,112,204,No,1,143,No,0.1,2,0,2,Si,40-50,Limite
+58,Mujer,0,100,248,No,0,122,No,1.0,1,0,2,Si,50-60,Alto
+66,Mujer,3,150,226,No,1,114,No,2.6,0,0,2,Si,Mayor 60,Limite
+65,Mujer,2,140,417,Alto,0,157,No,0.8,2,1,2,Si,Mayor 60,Alto
+35,Hombres,1,122,192,No,1,174,No,0.0,2,0,2,Si,Menor 40,Normal
+57,Hombres,1,124,261,No,1,141,No,0.3,2,0,3,No,50-60,Alto
+29,Hombres,1,130,204,No,0,202,No,0.0,2,0,2,Si,Menor 40,Limite
+66,Hombres,1,160,246,No,1,120,Si,0.0,1,3,1,No,Mayor 60,Alto
+61,Mujer,0,130,330,No,0,169,No,0.0,2,0,2,No,Mayor 60,Alto
+52,Hombres,0,125,212,No,1,168,No,1.0,2,2,3,No,50-60,Limite
+68,Hombres,2,118,277,No,1,151,No,1.0,2,1,3,Si,Mayor 60,Alto
+54,Hombres,2,120,258,No,0,147,No,0.4,1,0,3,Si,50-60,Alto
+63,Hombres,0,130,330,Alto,0,132,Si,1.8,2,3,3,No,Mayor 60,Alto
+58,Hombres,0,100,234,No,1,156,No,0.1,2,1,3,No,50-60,Limite
+60,Hombres,0,130,253,No,1,144,Si,1.4,2,1,3,No,50-60,Alto
+63,Hombres,0,130,254,No,0,147,No,1.4,1,1,3,No,Mayor 60,Alto
+41,Mujer,2,112,268,No,0,172,Si,0.0,2,0,2,Si,40-50,Alto
+68,Hombres,2,180,274,Alto,0,150,Si,1.6,1,0,3,No,Mayor 60,Alto
+42,Hombres,1,120,295,No,1,162,No,0.0,2,0,2,Si,40-50,Alto
+59,Hombres,0,170,326,No,0,140,Si,3.4,0,0,3,No,50-60,Alto
+59,Hombres,0,164,176,Alto,0,90,No,1.0,1,2,1,No,50-60,Normal
+43,Hombres,0,120,177,No,0,120,Si,2.5,1,0,3,No,40-50,Normal
+60,Hombres,2,140,185,No,0,155,No,3.0,1,0,2,No,50-60,Normal
+63,Mujer,0,150,407,No,0,154,No,4.0,1,3,3,No,Mayor 60,Alto
+52,Hombres,0,128,204,Alto,1,156,Si,1.0,1,0,0,No,50-60,Limite
+58,Hombres,0,125,300,No,0,171,No,0.0,2,2,3,No,50-60,Alto
+56,Mujer,0,200,288,Alto,0,133,Si,4.0,0,2,3,No,50-60,Alto
+54,Mujer,2,135,304,Alto,1,170,No,0.0,2,0,2,Si,50-60,Alto
+58,Hombres,2,105,240,No,0,154,Si,0.6,1,0,3,Si,50-60,Limite
+55,Mujer,1,135,250,No,0,161,No,1.4,1,0,2,Si,50-60,Alto
+53,Hombres,0,140,203,Alto,0,155,Si,3.1,0,0,3,No,50-60,Limite
+63,Mujer,1,140,195,No,1,179,No,0.0,2,2,2,Si,Mayor 60,Normal
+39,Hombres,0,118,219,No,1,140,No,1.2,1,0,3,No,Menor 40,Limite
+35,Hombres,0,126,282,No,0,156,Si,0.0,2,0,3,No,Menor 40,Alto
+50,Mujer,2,120,219,No,1,158,No,1.6,1,0,2,Si,40-50,Limite
+67,Hombres,2,152,212,No,0,150,No,0.8,1,0,3,No,Mayor 60,Limite
+66,Hombres,0,112,212,No,0,132,Si,0.1,2,1,2,No,Mayor 60,Limite
+35,Hombres,0,126,282,No,0,156,Si,0.0,2,0,3,No,Menor 40,Alto
+41,Hombres,2,130,214,No,0,168,No,2.0,1,0,2,Si,40-50,Limite
+35,Hombres,0,120,198,No,1,130,Si,1.6,1,0,3,No,Menor 40,Normal
+71,Mujer,1,160,302,No,1,162,No,0.4,2,2,2,Si,Mayor 60,Alto
+57,Hombres,0,110,201,No,1,126,Si,1.5,1,0,1,Si,50-60,Limite
+51,Hombres,2,94,227,No,1,154,Si,0.0,2,1,3,Si,50-60,Limite
+58,Hombres,0,128,216,No,0,131,Si,2.2,1,3,3,No,50-60,Limite
+57,Hombres,2,128,229,No,0,150,No,0.4,1,1,3,No,50-60,Limite
+56,Mujer,1,140,294,No,0,153,No,1.3,1,0,2,Si,50-60,Alto
+60,Mujer,2,120,178,Alto,1,96,No,0.0,2,0,2,Si,50-60,Normal
+45,Hombres,3,110,264,No,1,132,No,1.2,1,0,3,No,40-50,Alto
+56,Hombres,1,130,221,No,0,163,No,0.0,2,0,3,Si,50-60,Limite
+35,Hombres,0,120,198,No,1,130,Si,1.6,1,0,3,No,Menor 40,Normal
+45,Mujer,1,112,160,No,1,138,No,0.0,1,0,2,Si,40-50,Normal
+66,Mujer,3,150,226,No,1,114,No,2.6,0,0,2,Si,Mayor 60,Limite
+51,Hombres,3,125,213,No,0,125,Si,1.4,2,1,2,Si,50-60,Limite
+70,Hombres,1,156,245,No,0,143,No,0.0,2,0,2,Si,Mayor 60,Alto
+55,Mujer,0,128,205,No,2,130,Si,2.0,1,1,3,No,50-60,Limite
+56,Hombres,2,130,256,Alto,0,142,Si,0.6,1,1,1,No,50-60,Alto
+55,Mujer,1,135,250,No,0,161,No,1.4,1,0,2,Si,50-60,Alto
+52,Hombres,0,108,233,Alto,1,147,No,0.1,2,3,3,Si,50-60,Limite
+64,Hombres,2,140,335,No,1,158,No,0.0,2,0,2,No,Mayor 60,Alto
+45,Hombres,0,115,260,No,0,185,No,0.0,2,0,2,Si,40-50,Alto
+67,Mujer,2,152,277,No,1,172,No,0.0,2,1,2,Si,Mayor 60,Alto
+68,Mujer,2,120,211,No,0,115,No,1.5,1,0,2,Si,Mayor 60,Limite
+74,Mujer,1,120,269,No,0,121,Si,0.2,2,1,2,Si,Mayor 60,Alto
+60,Mujer,0,150,258,No,0,157,No,2.6,1,2,3,No,50-60,Alto
+48,Hombres,0,124,274,No,0,166,No,0.5,1,0,3,No,40-50,Alto
+56,Hombres,1,130,221,No,0,163,No,0.0,2,0,3,Si,50-60,Limite
+46,Hombres,0,140,311,No,1,120,Si,1.8,1,2,3,No,40-50,Alto
+55,Mujer,1,135,250,No,0,161,No,1.4,1,0,2,Si,50-60,Alto
+44,Hombres,1,120,220,No,1,170,No,0.0,2,0,2,Si,40-50,Limite
+52,Hombres,0,112,230,No,1,160,No,0.0,2,1,2,No,50-60,Limite
+51,Hombres,2,94,227,No,1,154,Si,0.0,2,1,3,Si,50-60,Limite
+44,Mujer,2,108,141,No,1,175,No,0.6,1,0,2,Si,40-50,Normal
+52,Hombres,0,128,204,Alto,1,156,Si,1.0,1,0,0,No,50-60,Limite
+50,Hombres,2,129,196,No,1,163,No,0.0,2,0,2,Si,40-50,Normal
+59,Hombres,0,110,239,No,0,142,Si,1.2,1,1,3,No,50-60,Limite
+67,Hombres,0,120,229,No,0,129,Si,2.6,1,2,3,No,Mayor 60,Limite
+58,Hombres,0,125,300,No,0,171,No,0.0,2,2,3,No,50-60,Alto
+52,Hombres,0,128,255,No,1,161,Si,0.0,2,1,3,No,50-60,Alto
+44,Hombres,2,140,235,No,0,180,No,0.0,2,0,2,Si,40-50,Limite
+41,Mujer,2,112,268,No,0,172,Si,0.0,2,0,2,Si,40-50,Alto
+63,Hombres,0,130,330,Alto,0,132,Si,1.8,2,3,3,No,Mayor 60,Alto
+58,Hombres,1,125,220,No,1,144,No,0.4,1,4,3,Si,50-60,Limite
+60,Mujer,2,102,318,No,1,160,No,0.0,2,1,2,Si,50-60,Alto
+51,Hombres,2,100,222,No,1,143,Si,1.2,1,0,2,Si,50-60,Limite
+64,Hombres,2,140,335,No,1,158,No,0.0,2,0,2,No,Mayor 60,Alto
+60,Hombres,0,117,230,Alto,1,160,Si,1.4,2,2,3,No,50-60,Limite
+44,Hombres,2,120,226,No,1,169,No,0.0,2,0,2,Si,40-50,Limite
+58,Hombres,1,125,220,No,1,144,No,0.4,1,4,3,Si,50-60,Limite
+55,Hombres,1,130,262,No,1,155,No,0.0,2,0,2,Si,50-60,Alto
+65,Mujer,2,160,360,No,0,151,No,0.8,2,0,2,Si,Mayor 60,Alto
+48,Hombres,1,130,245,No,0,180,No,0.2,1,0,2,Si,40-50,Alto
+65,Hombres,0,120,177,No,1,140,No,0.4,2,0,3,Si,Mayor 60,Normal
+51,Mujer,2,130,256,No,0,149,No,0.5,2,0,2,Si,50-60,Alto
+48,Hombres,2,124,255,Alto,1,175,No,0.0,2,2,2,Si,40-50,Alto
+64,Hombres,0,120,246,No,0,96,Si,2.2,0,1,2,No,Mayor 60,Alto
+66,Hombres,0,160,228,No,0,138,No,2.3,2,0,1,Si,Mayor 60,Limite
+46,Mujer,1,105,204,No,1,172,No,0.0,2,0,2,Si,40-50,Limite
+61,Mujer,0,130,330,No,0,169,No,0.0,2,0,2,No,Mayor 60,Alto
+57,Hombres,0,150,276,No,0,112,Si,0.6,1,1,1,No,50-60,Alto
+49,Mujer,0,130,269,No,1,163,No,0.0,2,0,2,Si,40-50,Alto
+56,Hombres,1,130,221,No,0,163,No,0.0,2,0,3,Si,50-60,Limite
+58,Mujer,3,150,283,Alto,0,162,No,1.0,2,0,2,Si,50-60,Alto
+63,Hombres,0,140,187,No,0,144,Si,4.0,2,2,3,No,Mayor 60,Normal
+57,Hombres,0,110,335,No,1,143,Si,3.0,1,1,3,No,50-60,Alto
+57,Hombres,0,110,335,No,1,143,Si,3.0,1,1,3,No,50-60,Alto
+68,Hombres,0,144,193,Alto,1,141,No,3.4,1,2,3,No,Mayor 60,Normal
+46,Hombres,1,101,197,Alto,1,156,No,0.0,2,0,3,Si,40-50,Normal
+71,Mujer,2,110,265,Alto,0,130,No,0.0,2,1,2,Si,Mayor 60,Alto
+41,Hombres,1,135,203,No,1,132,No,0.0,1,0,1,Si,40-50,Limite
+45,Mujer,0,138,236,No,0,152,Si,0.2,1,0,2,Si,40-50,Limite
+62,Mujer,0,150,244,No,1,154,Si,1.4,1,0,2,No,Mayor 60,Alto
+65,Mujer,0,150,225,No,0,114,No,1.0,1,3,3,No,Mayor 60,Limite
+48,Mujer,2,130,275,No,1,139,No,0.2,2,0,2,Si,40-50,Alto
+51,Hombres,2,100,222,No,1,143,Si,1.2,1,0,2,Si,50-60,Limite
+61,Mujer,0,145,307,No,0,146,Si,1.0,1,0,3,No,Mayor 60,Alto
+53,Hombres,0,123,282,No,1,95,Si,2.0,1,2,3,No,50-60,Alto
+59,Hombres,3,134,204,No,1,162,No,0.8,2,2,2,No,50-60,Limite
+34,Mujer,1,118,210,No,1,192,No,0.7,2,0,2,Si,Menor 40,Limite
+44,Hombres,0,120,169,No,1,144,Si,2.8,0,0,1,No,40-50,Normal
+58,Hombres,0,146,218,No,1,105,No,2.0,1,1,3,No,50-60,Limite
+64,Mujer,0,130,303,No,1,122,No,2.0,1,2,2,Si,Mayor 60,Alto
+56,Hombres,1,120,240,No,1,169,No,0.0,0,0,2,Si,50-60,Limite
+54,Hombres,2,150,232,No,0,165,No,1.6,2,0,3,Si,50-60,Limite
+55,Hombres,0,160,289,No,0,145,Si,0.8,1,1,3,No,50-60,Alto
+67,Hombres,0,125,254,Alto,1,163,No,0.2,1,2,3,No,Mayor 60,Alto
+51,Hombres,0,140,298,No,1,122,Si,4.2,1,3,3,No,50-60,Alto
+62,Mujer,0,138,294,Alto,1,106,No,1.9,1,3,2,No,Mayor 60,Alto
+62,Hombres,1,120,281,No,0,103,No,1.4,1,1,3,No,Mayor 60,Alto
+54,Hombres,0,110,239,No,1,126,Si,2.8,1,1,3,No,50-60,Limite
+54,Hombres,0,110,239,No,1,126,Si,2.8,1,1,3,No,50-60,Limite
+68,Hombres,0,144,193,Alto,1,141,No,3.4,1,2,3,No,Mayor 60,Normal
+60,Mujer,2,120,178,Alto,1,96,No,0.0,2,0,2,Si,50-60,Normal
+61,Hombres,3,134,234,No,1,145,No,2.6,1,2,2,No,Mayor 60,Limite
+62,Hombres,1,128,208,Alto,0,140,No,0.0,2,0,2,Si,Mayor 60,Limite
+41,Hombres,1,135,203,No,1,132,No,0.0,1,0,1,Si,40-50,Limite
+65,Mujer,0,150,225,No,0,114,No,1.0,1,3,3,No,Mayor 60,Limite
+59,Hombres,3,170,288,No,0,159,No,0.2,1,0,3,No,50-60,Alto
+43,Hombres,0,115,303,No,1,181,No,1.2,1,0,2,Si,40-50,Alto
+67,Hombres,0,120,229,No,0,129,Si,2.6,1,2,3,No,Mayor 60,Limite
+63,Hombres,3,145,233,Alto,0,150,No,2.3,0,0,1,Si,Mayor 60,Limite
+63,Mujer,0,124,197,No,1,136,Si,0.0,1,0,2,No,Mayor 60,Normal
+52,Hombres,0,112,230,No,1,160,No,0.0,2,1,2,No,50-60,Limite
+58,Mujer,0,130,197,No,1,131,No,0.6,1,0,2,Si,50-60,Normal
+53,Hombres,0,142,226,No,0,111,Si,0.0,2,0,3,Si,50-60,Limite
+57,Hombres,0,150,276,No,0,112,Si,0.6,1,1,1,No,50-60,Alto
+44,Hombres,2,130,233,No,1,179,Si,0.4,2,0,2,Si,40-50,Limite
+51,Hombres,2,94,227,No,1,154,Si,0.0,2,1,3,Si,50-60,Limite
+54,Mujer,2,110,214,No,1,158,No,1.6,1,0,2,Si,50-60,Limite
+40,Hombres,0,110,167,No,0,114,Si,2.0,1,0,3,No,Menor 40,Normal
+57,Hombres,1,124,261,No,1,141,No,0.3,2,0,3,No,50-60,Alto
+62,Mujer,0,140,268,No,0,160,No,3.6,0,2,2,No,Mayor 60,Alto
+53,Hombres,0,140,203,Alto,0,155,Si,3.1,0,0,3,No,50-60,Limite
+62,Hombres,1,128,208,Alto,0,140,No,0.0,2,0,2,Si,Mayor 60,Limite
+58,Hombres,2,105,240,No,0,154,Si,0.6,1,0,3,Si,50-60,Limite
+70,Hombres,1,156,245,No,0,143,No,0.0,2,0,2,Si,Mayor 60,Alto
+45,Hombres,0,115,260,No,0,185,No,0.0,2,0,2,Si,40-50,Alto
+42,Hombres,3,148,244,No,0,178,No,0.8,2,2,2,Si,40-50,Alto
+58,Mujer,0,170,225,Alto,0,146,Si,2.8,1,2,1,No,50-60,Limite
+61,Hombres,0,140,207,No,0,138,Si,1.9,2,1,3,No,Mayor 60,Limite
+62,Mujer,0,140,268,No,0,160,No,3.6,0,2,2,No,Mayor 60,Alto
+60,Hombres,0,130,253,No,1,144,Si,1.4,2,1,3,No,50-60,Alto
+54,Hombres,0,140,239,No,1,160,No,1.2,2,0,2,Si,50-60,Limite
+61,Hombres,0,138,166,No,0,125,Si,3.6,1,1,2,No,Mayor 60,Normal
+63,Mujer,2,135,252,No,0,172,No,0.0,2,0,2,Si,Mayor 60,Alto
+42,Hombres,2,130,180,No,1,150,No,0.0,2,0,2,Si,40-50,Normal
+57,Hombres,2,128,229,No,0,150,No,0.4,1,1,3,No,50-60,Limite
+44,Hombres,2,130,233,No,1,179,Si,0.4,2,0,2,Si,40-50,Limite
+54,Hombres,0,124,266,No,0,109,Si,2.2,1,1,3,No,50-60,Alto
+51,Hombres,2,100,222,No,1,143,Si,1.2,1,0,2,Si,50-60,Limite
+58,Hombres,1,125,220,No,1,144,No,0.4,1,4,3,Si,50-60,Limite
+68,Hombres,2,118,277,No,1,151,No,1.0,2,1,3,Si,Mayor 60,Alto
+55,Hombres,0,140,217,No,1,111,Si,5.6,0,0,3,No,50-60,Limite
+42,Hombres,0,136,315,No,1,125,Si,1.8,1,0,1,No,40-50,Alto
+49,Hombres,2,118,149,No,0,126,No,0.8,2,3,2,No,40-50,Normal
+53,Mujer,0,138,234,No,0,160,No,0.0,2,0,2,Si,50-60,Limite
+52,Hombres,2,172,199,Alto,1,162,No,0.5,2,0,3,Si,50-60,Normal
+51,Hombres,3,125,213,No,0,125,Si,1.4,2,1,2,Si,50-60,Limite
+51,Hombres,0,140,261,No,0,186,Si,0.0,2,0,2,Si,50-60,Alto
+70,Hombres,0,145,174,No,1,125,Si,2.6,0,0,3,No,Mayor 60,Normal
+35,Mujer,0,138,183,No,1,182,No,1.4,2,0,2,Si,Menor 40,Normal
+58,Hombres,2,112,230,No,0,165,No,2.5,1,1,3,No,50-60,Limite
+59,Hombres,3,160,273,No,0,125,No,0.0,2,0,2,No,50-60,Alto
+60,Hombres,0,140,293,No,0,170,No,1.2,1,2,3,No,50-60,Alto
+56,Hombres,0,132,184,No,0,105,Si,2.1,1,1,1,No,50-60,Normal
+35,Mujer,0,138,183,No,1,182,No,1.4,2,0,2,Si,Menor 40,Normal
+61,Hombres,0,138,166,No,0,125,Si,3.6,1,1,2,No,Mayor 60,Normal
+58,Mujer,3,150,283,Alto,0,162,No,1.0,2,0,2,Si,50-60,Alto
+52,Hombres,0,128,255,No,1,161,Si,0.0,2,1,3,No,50-60,Alto
+58,Hombres,1,120,284,No,0,160,No,1.8,1,0,2,No,50-60,Alto
+37,Hombres,2,130,250,No,1,187,No,3.5,0,0,2,Si,Menor 40,Alto
+52,Hombres,0,128,255,No,1,161,Si,0.0,2,1,3,No,50-60,Alto
+67,Hombres,0,120,229,No,0,129,Si,2.6,1,2,3,No,Mayor 60,Limite
+65,Hombres,3,138,282,Alto,0,174,No,1.4,1,1,2,No,Mayor 60,Alto
+46,Hombres,1,101,197,Alto,1,156,No,0.0,2,0,3,Si,40-50,Normal
+68,Mujer,2,120,211,No,0,115,No,1.5,1,0,2,Si,Mayor 60,Limite
+43,Hombres,0,115,303,No,1,181,No,1.2,1,0,2,Si,40-50,Alto
+68,Mujer,2,120,211,No,0,115,No,1.5,1,0,2,Si,Mayor 60,Limite
+51,Hombres,0,140,299,No,1,173,Si,1.6,2,0,3,No,50-60,Alto
+52,Hombres,0,112,230,No,1,160,No,0.0,2,1,2,No,50-60,Limite
+64,Hombres,2,140,335,No,1,158,No,0.0,2,0,2,No,Mayor 60,Alto
+59,Hombres,3,170,288,No,0,159,No,0.2,1,0,3,No,50-60,Alto
+52,Hombres,0,125,212,No,1,168,No,1.0,2,2,3,No,50-60,Limite
+59,Hombres,3,160,273,No,0,125,No,0.0,2,0,2,No,50-60,Alto
+60,Mujer,3,150,240,No,1,171,No,0.9,2,0,2,Si,50-60,Limite
+41,Hombres,2,112,250,No,1,179,No,0.0,2,0,2,Si,40-50,Alto
+41,Hombres,1,110,235,No,1,153,No,0.0,2,0,2,Si,40-50,Limite
+56,Hombres,1,120,240,No,1,169,No,0.0,0,0,2,Si,50-60,Limite
+56,Hombres,1,120,236,No,1,178,No,0.8,2,0,2,Si,50-60,Limite
+48,Mujer,2,130,275,No,1,139,No,0.2,2,0,2,Si,40-50,Alto
+39,Hombres,2,140,321,No,0,182,No,0.0,2,0,2,Si,Menor 40,Alto
+64,Hombres,3,170,227,No,0,155,No,0.6,1,0,3,Si,Mayor 60,Limite
+57,Hombres,0,140,192,No,1,148,No,0.4,1,0,1,Si,50-60,Normal
+59,Hombres,3,160,273,No,0,125,No,0.0,2,0,2,No,50-60,Alto
+60,Hombres,0,130,206,No,0,132,Si,2.4,1,2,3,No,50-60,Limite
+61,Hombres,0,140,207,No,0,138,Si,1.9,2,1,3,No,Mayor 60,Limite
+43,Mujer,2,122,213,No,1,165,No,0.2,1,0,2,Si,40-50,Limite
+54,Hombres,0,120,188,No,1,113,No,1.4,1,1,3,No,50-60,Normal
+59,Hombres,0,138,271,No,0,182,No,0.0,2,0,2,Si,50-60,Alto
+57,Hombres,0,132,207,No,1,168,Si,0.0,2,0,3,Si,50-60,Limite
+57,Hombres,1,154,232,No,0,164,No,0.0,2,1,2,No,50-60,Limite
+57,Hombres,0,130,131,No,1,115,Si,1.2,1,1,3,No,50-60,Normal
+48,Hombres,0,124,274,No,0,166,No,0.5,1,0,3,No,40-50,Alto
+70,Hombres,0,145,174,No,1,125,Si,2.6,0,0,3,No,Mayor 60,Normal
+57,Hombres,0,165,289,Alto,0,124,No,1.0,1,3,3,No,50-60,Alto
+61,Hombres,0,120,260,No,1,140,Si,3.6,1,1,3,No,Mayor 60,Alto
+57,Hombres,0,110,201,No,1,126,Si,1.5,1,0,1,Si,50-60,Limite
+60,Mujer,0,150,258,No,0,157,No,2.6,1,2,3,No,50-60,Alto
+63,Mujer,0,150,407,No,0,154,No,4.0,1,3,3,No,Mayor 60,Alto
+55,Mujer,0,128,205,No,2,130,Si,2.0,1,1,3,No,50-60,Limite
+64,Mujer,0,180,325,No,1,154,Si,0.0,2,0,2,Si,Mayor 60,Alto
+54,Hombres,0,110,239,No,1,126,Si,2.8,1,1,3,No,50-60,Limite
+52,Hombres,0,128,204,Alto,1,156,Si,1.0,1,0,0,No,50-60,Limite
+51,Hombres,0,140,299,No,1,173,Si,1.6,2,0,3,No,50-60,Alto
+62,Mujer,2,130,263,No,1,97,No,1.2,1,1,3,No,Mayor 60,Alto
+59,Hombres,3,178,270,No,0,145,No,4.2,0,0,3,Si,50-60,Alto
+52,Hombres,1,134,201,No,1,158,No,0.8,2,1,2,Si,50-60,Limite
+42,Mujer,0,102,265,No,0,122,No,0.6,1,0,2,Si,40-50,Alto
+59,Hombres,0,135,234,No,1,161,No,0.5,1,0,3,Si,50-60,Limite
+61,Hombres,3,134,234,No,1,145,No,2.6,1,2,2,No,Mayor 60,Limite
+42,Mujer,0,102,265,No,0,122,No,0.6,1,0,2,Si,40-50,Alto
+62,Mujer,0,140,268,No,0,160,No,3.6,0,2,2,No,Mayor 60,Alto
+59,Hombres,2,126,218,Alto,1,134,No,2.2,1,1,1,No,50-60,Limite
+55,Hombres,1,130,262,No,1,155,No,0.0,2,0,2,Si,50-60,Alto
+64,Hombres,0,120,246,No,0,96,Si,2.2,0,1,2,No,Mayor 60,Alto
+42,Hombres,0,140,226,No,1,178,No,0.0,2,0,2,Si,40-50,Limite
+50,Mujer,1,120,244,No,1,162,No,1.1,2,0,2,Si,40-50,Alto
+62,Hombres,0,120,267,No,1,99,Si,1.8,1,2,3,No,Mayor 60,Alto
+50,Hombres,0,144,200,No,0,126,Si,0.9,1,0,3,No,40-50,Normal
+50,Hombres,2,140,233,No,1,163,No,0.6,1,1,3,No,40-50,Limite
+58,Mujer,1,136,319,Alto,0,152,No,0.0,2,2,2,No,50-60,Alto
+35,Hombres,0,120,198,No,1,130,Si,1.6,1,0,3,No,Menor 40,Normal
+45,Hombres,0,104,208,No,0,148,Si,3.0,1,0,2,Si,40-50,Limite
+66,Hombres,0,112,212,No,0,132,Si,0.1,2,1,2,No,Mayor 60,Limite
+46,Hombres,0,120,249,No,0,144,No,0.8,2,0,3,No,40-50,Alto
+65,Hombres,0,135,254,No,0,127,No,2.8,1,1,3,No,Mayor 60,Alto
+47,Hombres,2,130,253,No,1,179,No,0.0,2,0,2,Si,40-50,Alto
+59,Hombres,3,134,204,No,1,162,No,0.8,2,2,2,No,50-60,Limite
+38,Hombres,3,120,231,No,1,182,Si,3.8,1,0,3,No,Menor 40,Limite
+39,Hombres,0,118,219,No,1,140,No,1.2,1,0,3,No,Menor 40,Limite
+58,Hombres,0,146,218,No,1,105,No,2.0,1,1,3,No,50-60,Limite
+44,Hombres,1,120,263,No,1,173,No,0.0,2,0,3,Si,40-50,Alto
+54,Hombres,0,140,239,No,1,160,No,1.2,2,0,2,Si,50-60,Limite
+61,Mujer,0,130,330,No,0,169,No,0.0,2,0,2,No,Mayor 60,Alto
+57,Hombres,0,130,131,No,1,115,Si,1.2,1,1,3,No,50-60,Normal
+54,Hombres,0,110,206,No,0,108,Si,0.0,1,1,2,No,50-60,Limite
+42,Hombres,2,120,240,Alto,1,194,No,0.8,0,0,3,Si,40-50,Limite
+54,Hombres,0,124,266,No,0,109,Si,2.2,1,1,3,No,50-60,Alto
+60,Hombres,0,130,206,No,0,132,Si,2.4,1,2,3,No,50-60,Limite
+65,Hombres,0,135,254,No,0,127,No,2.8,1,1,3,No,Mayor 60,Alto
+40,Hombres,0,152,223,No,1,181,No,0.0,2,0,3,No,Menor 40,Limite
+51,Mujer,2,140,308,No,0,142,No,1.5,2,1,2,Si,50-60,Alto
+38,Hombres,3,120,231,No,1,182,Si,3.8,1,0,3,No,Menor 40,Limite
+42,Hombres,2,130,180,No,1,150,No,0.0,2,0,2,Si,40-50,Normal
+56,Hombres,1,120,240,No,1,169,No,0.0,0,0,2,Si,50-60,Limite
+43,Hombres,2,130,315,No,1,162,No,1.9,2,1,2,Si,40-50,Alto
+64,Hombres,2,140,335,No,1,158,No,0.0,2,0,2,No,Mayor 60,Alto
+53,Hombres,0,142,226,No,0,111,Si,0.0,2,0,3,Si,50-60,Limite
+49,Mujer,1,134,271,No,1,162,No,0.0,1,0,2,Si,40-50,Alto
+57,Mujer,0,140,241,No,1,123,Si,0.2,1,0,3,No,50-60,Alto
+52,Mujer,2,136,196,No,0,169,No,0.1,1,0,2,Si,50-60,Normal
+69,Mujer,3,140,239,No,1,151,No,1.8,2,2,2,Si,Mayor 60,Limite
+65,Hombres,0,120,177,No,1,140,No,0.4,2,0,3,Si,Mayor 60,Normal
+66,Mujer,0,178,228,Alto,1,165,Si,1.0,1,2,3,No,Mayor 60,Limite
+56,Hombres,3,120,193,No,0,162,No,1.9,1,0,3,Si,50-60,Normal
+67,Mujer,2,152,277,No,1,172,No,0.0,2,1,2,Si,Mayor 60,Alto
+54,Mujer,2,160,201,No,1,163,No,0.0,2,1,2,Si,50-60,Limite
+70,Hombres,0,145,174,No,1,125,Si,2.6,0,0,3,No,Mayor 60,Normal
+57,Hombres,0,132,207,No,1,168,Si,0.0,2,0,3,Si,50-60,Limite
+67,Hombres,0,160,286,No,0,108,Si,1.5,1,3,2,No,Mayor 60,Alto
+62,Mujer,2,130,263,No,1,97,No,1.2,1,1,3,No,Mayor 60,Alto
+54,Mujer,2,135,304,Alto,1,170,No,0.0,2,0,2,Si,50-60,Alto
+45,Mujer,0,138,236,No,0,152,Si,0.2,1,0,2,Si,40-50,Limite
+53,Mujer,0,130,264,No,0,143,No,0.4,1,0,2,Si,50-60,Alto
+62,Hombres,2,130,231,No,1,146,No,1.8,1,3,3,Si,Mayor 60,Limite
+49,Mujer,0,130,269,No,1,163,No,0.0,2,0,2,Si,40-50,Alto
+50,Hombres,2,140,233,No,1,163,No,0.6,1,1,3,No,40-50,Limite
+65,Mujer,2,140,417,Alto,0,157,No,0.8,2,1,2,Si,Mayor 60,Alto
+69,Mujer,3,140,239,No,1,151,No,1.8,2,2,2,Si,Mayor 60,Limite
+52,Mujer,2,136,196,No,0,169,No,0.1,1,0,2,Si,50-60,Normal
+58,Mujer,0,100,248,No,0,122,No,1.0,1,0,2,Si,50-60,Alto
+52,Hombres,0,108,233,Alto,1,147,No,0.1,2,3,3,Si,50-60,Limite
+57,Mujer,0,140,241,No,1,123,Si,0.2,1,0,3,No,50-60,Alto
+44,Mujer,2,108,141,No,1,175,No,0.6,1,0,2,Si,40-50,Normal
+76,Mujer,2,140,197,No,2,116,No,1.1,1,0,2,Si,Mayor 60,Normal
+58,Hombres,0,128,259,No,0,130,Si,3.0,1,2,3,No,50-60,Alto
+60,Mujer,2,120,178,Alto,1,96,No,0.0,2,0,2,Si,50-60,Normal
+53,Hombres,0,140,203,Alto,0,155,Si,3.1,0,0,3,No,50-60,Limite
+52,Hombres,1,120,325,No,1,172,No,0.2,2,0,2,Si,50-60,Alto
+38,Hombres,2,138,175,No,1,173,No,0.0,2,4,2,Si,Menor 40,Normal
+52,Hombres,2,172,199,Alto,1,162,No,0.5,2,0,3,Si,50-60,Normal
+52,Hombres,3,118,186,No,0,190,No,0.0,1,0,1,Si,50-60,Normal
+51,Hombres,2,125,245,Alto,0,166,No,2.4,1,0,2,Si,50-60,Alto
+43,Hombres,0,110,211,No,1,161,No,0.0,2,0,3,Si,40-50,Limite
+39,Hombres,0,118,219,No,1,140,No,1.2,1,0,3,No,Menor 40,Limite
+63,Mujer,0,108,269,No,1,169,Si,1.8,1,2,2,No,Mayor 60,Alto
+52,Hombres,1,128,205,Alto,1,184,No,0.0,2,0,2,Si,50-60,Limite
+44,Hombres,0,110,197,No,0,177,No,0.0,2,1,2,No,40-50,Normal
+45,Hombres,0,142,309,No,0,147,Si,0.0,1,3,3,No,40-50,Alto
+57,Hombres,0,140,192,No,1,148,No,0.4,1,0,1,Si,50-60,Normal
+39,Hombres,0,118,219,No,1,140,No,1.2,1,0,3,No,Menor 40,Limite
+67,Mujer,0,106,223,No,1,142,No,0.3,2,2,2,Si,Mayor 60,Limite
+64,Hombres,0,128,263,No,1,105,Si,0.2,1,1,3,Si,Mayor 60,Alto
+59,Hombres,0,135,234,No,1,161,No,0.5,1,0,3,Si,50-60,Limite
+62,Hombres,2,130,231,No,1,146,No,1.8,1,3,3,Si,Mayor 60,Limite
+55,Mujer,0,180,327,No,2,117,Si,3.4,1,0,2,No,50-60,Alto
+57,Hombres,1,154,232,No,0,164,No,0.0,2,1,2,No,50-60,Limite
+60,Hombres,0,140,293,No,0,170,No,1.2,1,2,3,No,50-60,Alto
+71,Mujer,1,160,302,No,1,162,No,0.4,2,2,2,Si,Mayor 60,Alto
+56,Hombres,1,120,236,No,1,178,No,0.8,2,0,2,Si,50-60,Limite
+60,Hombres,0,117,230,Alto,1,160,Si,1.4,2,2,3,No,50-60,Limite
+50,Mujer,0,110,254,No,0,159,No,0.0,2,0,2,Si,40-50,Alto
+43,Hombres,0,132,247,Alto,0,143,Si,0.1,1,4,3,No,40-50,Alto
+59,Hombres,0,110,239,No,0,142,Si,1.2,1,1,3,No,50-60,Limite
+44,Hombres,1,120,263,No,1,173,No,0.0,2,0,3,Si,40-50,Alto
+56,Mujer,0,134,409,No,0,150,Si,1.9,1,2,3,No,50-60,Alto
+54,Hombres,0,120,188,No,1,113,No,1.4,1,1,3,No,50-60,Normal
+42,Hombres,0,136,315,No,1,125,Si,1.8,1,0,1,No,40-50,Alto
+67,Hombres,0,125,254,Alto,1,163,No,0.2,1,2,3,No,Mayor 60,Alto
+64,Hombres,0,145,212,No,0,132,No,2.0,1,2,1,No,Mayor 60,Limite
+42,Hombres,0,140,226,No,1,178,No,0.0,2,0,2,Si,40-50,Limite
+66,Hombres,0,112,212,No,0,132,Si,0.1,2,1,2,No,Mayor 60,Limite
+52,Hombres,0,108,233,Alto,1,147,No,0.1,2,3,3,Si,50-60,Limite
+51,Mujer,2,140,308,No,0,142,No,1.5,2,1,2,Si,50-60,Alto
+55,Mujer,0,128,205,No,2,130,Si,2.0,1,1,3,No,50-60,Limite
+58,Hombres,2,140,211,Alto,0,165,No,0.0,2,0,2,Si,50-60,Limite
+56,Hombres,3,120,193,No,0,162,No,1.9,1,0,3,Si,50-60,Normal
+42,Hombres,1,120,295,No,1,162,No,0.0,2,0,2,Si,40-50,Alto
+40,Hombres,0,152,223,No,1,181,No,0.0,2,0,3,No,Menor 40,Limite
+51,Hombres,0,140,299,No,1,173,Si,1.6,2,0,3,No,50-60,Alto
+45,Hombres,1,128,308,No,0,170,No,0.0,2,0,2,Si,40-50,Alto
+48,Hombres,1,110,229,No,1,168,No,1.0,0,0,3,No,40-50,Limite
+58,Hombres,0,114,318,No,2,140,No,4.4,0,3,1,No,50-60,Alto
+44,Mujer,2,108,141,No,1,175,No,0.6,1,0,2,Si,40-50,Normal
+58,Hombres,0,128,216,No,0,131,Si,2.2,1,3,3,No,50-60,Limite
+65,Hombres,3,138,282,Alto,0,174,No,1.4,1,1,2,No,Mayor 60,Alto
+53,Hombres,0,123,282,No,1,95,Si,2.0,1,2,3,No,50-60,Alto
+41,Hombres,0,110,172,No,0,158,No,0.0,2,0,3,No,40-50,Normal
+47,Hombres,0,112,204,No,1,143,No,0.1,2,0,2,Si,40-50,Limite
+59,Hombres,1,140,221,No,1,164,Si,0.0,2,0,2,Si,50-60,Limite
+60,Hombres,0,125,258,No,0,141,Si,2.8,1,1,3,No,50-60,Alto
+47,Hombres,0,110,275,No,0,118,Si,1.0,1,1,2,No,40-50,Alto
+50,Mujer,0,110,254,No,0,159,No,0.0,2,0,2,Si,40-50,Alto
+54,Hombres,0,120,188,No,1,113,No,1.4,1,1,3,No,50-60,Normal

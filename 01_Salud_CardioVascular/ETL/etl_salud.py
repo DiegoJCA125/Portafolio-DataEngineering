@@ -94,3 +94,61 @@ print(df[["edad", "sexo", "grupo_edad", "colesterol", "nivel_colesterol", "enfer
 print(f"\nTotal pacientes: {len(df)}")
 print(f"Con enfermedad cardiaca: {df['enfermedad_cardiaca'].value_counts()['Si']}")
 print(f"Sin enfermedad cardiaca: {df['enfermedad_cardiaca'].value_counts()['No']}")
+
+import sqlite3
+
+print("\n" + "=" * 50)
+print("CARGA DE DATOS - L DE ETL")
+print("=" * 50)
+
+# CREA LA BASE DE DATOS EN A CARPETA DATA/
+ruta_db = os.path.join(os.path.dirname(__file__), "../data/salud.db")
+conexion = sqlite3.connect(ruta_db)
+#connect()  CREA O ABRE LA BASE DATOS
+
+#to_sql() - EXPORTA EL DATAFRAME A UNA TABLA SQL
+# if_exists="replace" - SI LA TABLA EXISTE LA REEMPLAZA
+#index = False  -NO GUARDA EL INDICE DE PANDAS
+df.to_sql("pacientes", conexion, if_exists="replace", index=False)
+print("Datos cargados en base de datos correctamente")
+
+#VERIFICAR QUE SE CARGARON BIEN
+query = "SELECT COUNT(*) as total FROM pacientes"
+resultado = pd.read_sql(query, conexion)
+#read_sql() - EJECUTA UNA CONSULTA SQL Y DEVUELVE UN DATAFRAME
+print(f"Total registros en BD: {resultado['total'][0]}")
+
+#CONSULTAS DE VERIFICACION
+print("\nDistribucion por sexo:")
+query_sexo = """
+    SELECT sexo, 
+           COUNT(*) as total,
+           SUM(CASE WHEN enfermedad_cardiaca = 'Si' 
+               THEN 1 ELSE 0 END) as con_enfermedad
+    FROM pacientes
+    GROUP BY sexo
+"""
+# CASE WHEN - ES UN IF/ELSE EN SQL
+# SUM(CASE WHEN....) CUENTA LOS QUE CUMPLAS LA CONDICION
+print(pd.read_sql(query_sexo, conexion))
+
+print("\nDistribucion por grupo de edad:")
+query_edad = """
+    SELECT grupo_edad,
+           COUNT(*) as total,
+           SUM(CASE WHEN enfermedad_cardiaca = 'Si' 
+               THEN 1 ELSE 0 END) as con_enfermedad
+    FROM pacientes
+    GROUP BY grupo_edad
+    ORDER BY grupo_edad
+"""
+print(pd.read_sql(query_edad, conexion))
+
+# GUARDAR EL DATAFRAME LIMPIO COMO CSV
+ruta_clean = os.path.join(os.path.dirname(__file__), "../data/heart_clean.csv")
+df.to_csv(ruta_clean, index=False)
+#ESTE CSV LIMPIO LO USAREMOS PARA POWER BI
+print("\nCSV limpio guardado para Power BI!")
+
+conexion.close()
+print("\nETL completado existosamente")
