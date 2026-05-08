@@ -81,7 +81,7 @@ with col1:
     #st.selectbox() - MENU DESPLEGABLE CON OPCIONES
     sexo_filtro = st.selectbox(
         "Filtrar por Sexo",
-        options=["Todos"] + list(df["sexo"].unique)
+        options=["Todos"] + list(df["sexo"].unique())
         # ["Todos"] + list() - agrega "Todos" como primera opcion
     )
 
@@ -89,7 +89,7 @@ with col2:
     # st.multiselect() - seleccion multiple
     edad_filtro = st.multiselect(
         "Filtrar por Grupo de Edades:",
-        optiones = df["grupo_edad"].unique(),
+        options = df["grupo_edad"].unique(),
         default = df["grupo_edad"].unique()
     )
 
@@ -97,7 +97,7 @@ with col2:
 df_filtrado = df.copy()
 #copy() CREA UNA COPIA DEL DATAFRAME ARA NO MODIFICAR EL ORIGINAL
 
-if sexo_filtrado != "Todos":
+if sexo_filtro != "Todos":
     df_filtrado = df_filtrado[df_filtrado["sexo"] == sexo_filtrado]
 
 if edad_filtro:
