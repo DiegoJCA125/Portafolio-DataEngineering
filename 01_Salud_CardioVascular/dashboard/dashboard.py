@@ -72,7 +72,7 @@ with col4:
 st.markdown("************")
 
 # ---- SECCION 2 - FILTROS INTERACTIVOS
-st.subheader("🔍 Filtros")
+st.subheader("?? Filtros")
 
 # DIVIDIMOS EN 2 COLUMNAS PARA LOS FILTROS
 col1, col2 = st.columns(2)
@@ -109,7 +109,7 @@ st.markdown(f"****Pacientes filtrados: {len(df_filtrado)}****")
 st.markdown("-----------")
 
 # SECCION 3 - GRAFICAS
-st.subheader("📈 Analisis Visual")
+st.subheader("?? Analisis Visual")
 
 col1, col2 = st.columns(2)
 
@@ -149,7 +149,7 @@ with col2:
 st.markdown("---")
 
 # ---- SECCION 4 - FACTORES DE RIESGO ----
-st.subheader("⚠️ Factores de Riesgo")
+st.subheader("?? Factores de Riesgo")
 
 col1, col2 = st.columns(2)
 
@@ -180,7 +180,7 @@ with col2:
 st.markdown("---")
 
 # ---- SECCION 5 - TABLA INTERACTIVA ----
-st.subheader("📋 Datos Detallados")
+st.subheader("?? Datos Detallados")
 st.dataframe(df_filtrado[[
     "edad", "sexo", "grupo_edad", "colesterol",
     "nivel_colesterol", "presion_arterial",
@@ -188,7 +188,7 @@ st.dataframe(df_filtrado[[
 ]])
 
 # ---- SECCION 6 - DESCARGA ----
-st.subheader("💾 Descargar Datos")
+st.subheader("?? Descargar Datos")
 import io
 buffer = io.BytesIO()
 
@@ -202,7 +202,7 @@ with pd.ExcelWriter(buffer, engine="openpyxl") as writer:
         .to_excel(writer, sheet_name="Por Sexo", index=False)
 
 st.download_button(
-    label="📥 Descargar Reporte Excel",
+    label="?? Descargar Reporte Excel",
     data=buffer.getvalue(),
     file_name="reporte_salud.xlsx",
     mime="application/vnd.ms-excel"
