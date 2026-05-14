@@ -6,7 +6,7 @@ Portafolio
 Proyecto de Data Engineering que analiza factores d riesgo en enfermedades cardiaca usando datos reales de +1.000 paciente
 
 ## TECNOLOGIAS
-- Python : Lengahje principal
+- Python : Lenguaje principal
 - Pandas: Limpieza y transformacion de datos
 - SQLite: Almacenamiento de datos
 - Streamlit: Dashboard interactivo
