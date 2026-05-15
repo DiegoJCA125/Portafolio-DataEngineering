@@ -17,8 +17,15 @@ SQL, ETL y visualizacion de datos
 - Dashboard interactivo con filtros dinamicos
 - Analisis de factores de riesgo cardiacos
 - **Tecnologias:** Python, Pandas, SQLite, Streamlit
+[Ver Proyecto] (./01_Salud_CardioVascular)
 
-### ?? 02 - Próximamente...
+### ?? 02 - END TO END E-COMMERCE DATA PIPELINE
+- Pipeline ETL robusto que procesa mas de 500.000 registros de ventas
+- Modelado de adtos relacional y reportes analiticos con SQL puro
+- Dashboard interactivo de KPIs de negocio (Ventas, Top producto, Ticket promedio)
+- **Tecnologias:** Python, Pandas, SQLite, SQL, Streamlit, Plotly
+- [Ver Proyecto] (./02_Ecommerce_ventas)
+
 ### ?? 03 - Próximamente...
 
 # ?? Contacto
