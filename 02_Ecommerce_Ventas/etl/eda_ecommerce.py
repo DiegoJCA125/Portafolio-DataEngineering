@@ -77,7 +77,27 @@ try:
     print("? Grafico guardado como 'histograma_densidad_ingresos.png' en tu carpeta")
     plt.show()
 
-    
+    # -----------------------------------------------------------------
+    # 5. TRANSFORMACION MATEMATICA PARA MACHINE LEARNING
+    # -----------------------------------------------------------------
+    print("--> Aplicando transformacion logaritmica para corregir el sesgo...")
 
+    #UTILIZAMOS log1p (logaritmo de x +1) PARA EVITAR ERRORES SI LELGA HABER ALGUN INGRESO DE 0
+    df['ingreso_log'] = np.log1p(df['ingreso_total'])
+
+    print("--> Generando Histograma de la variable transformada...")
+    plt.figure(figsize=(10, 5))
+
+    # SE GRAFICA LA NUEVA COLUMNA TRANSFORMADA
+    sns.histplot(df['ingreso_log'], bins=30, kde=True, color='green', stat="density")
+    plt.title('Distribucion Normalizada de Ingresos (Transformacion Logaritmica)', fontsize=14)
+    plt.xlabel('logaritmo del Monto de Venta')
+    plt.ylabel('Densidad')
+
+    # GUARDAMOS EN LA CARPETA CORRECTA
+    ruta_log = os.path.join(os.path.dirname(__file__), 'histograma_log_ingresos.png')
+    plt.savefig(ruta_log, bbox_inches='tight')
+    plt.close()
+    print("? Grafico de transformacion guardado como 'histograma_log_ingresos.png'")
 except Exception as e:
     print(f"Error!! en el proceso: {e}")
