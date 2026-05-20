@@ -1,0 +1,6 @@
+Plaintext
+# Ignorar la caja fuerte con las contraseñas
+.env
+
+# Ignorar el dataset gigante de Kaggle (pesa mucho para GitHub)
+data/data.csv

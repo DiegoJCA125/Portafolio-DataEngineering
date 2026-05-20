@@ -1,26 +1,62 @@
+#-*- coding: utf-8 -*-
 import streamlit as st
 import pandas as pd
-import sqlite3
-import os
 import plotly.express as px
+from sqlalchemy import create_engine # CONECTARNOS A LA NUBE
+import os
+from dotenv import load_backend_env, load_dotenv
 
 # CONFIGURACION DE LA PAGINA 
-st.set_page_config(page_title = "E-commerce Analytics", layout = "wide")
+st.set_page_config(page_title = "Dashboard E-Commerce Cloud", layout = "wide")
+
+# =====================================================================
+#  CONEXION A LA NUBE (SUPABASE - AWS)
+# =====================================================================
+#LEE EL ARCHIVO .env OCULTO EN MI PC
+load_dotenv()
+
+USUARIO = os.getenv("DB_USER")
+CLAVE = os.getenv("DB_PASSWORD")
+SERVIDOR = os.getenv("DB_HOST")
+PUERTO = os.getenv("DB_PORT")
+BASE_DATOS = os.getenv("DB_NAME")
+
+DATABASE_URL = f"postgresql://{USUARIO}:{CLAVE}@{SERVIDOR}:{PUERTO}/{BASE_DATOS}"
+
+# Funcion optimizada con cache para no saturar la bd en la nube en cada clic
+@st.cache_data
+def cargar_datos_cloud():
+    try:
+        #CREACION DEL MOTO DE CONEXION A POSTGRESQL
+        engine = create_engine(DATABASE_URL)
+
+        # CONSULTA SQL DIRECTO A LA TABLA DE LA NUBE
+        query = "SELECT * FROM ventas_procesadas;"
+
+        #PANDAS LEE DIRECTAMENTE DESDE INTERNET
+        df_cloud = pd.read_sql(query, con = engine)
+
+        # SE ASEGURA QUE LA FECHA SEA INTERPRETRADA CORRECTAMENTE
+        df_cloud['fecha_factura'] = pd.to_datetime(df_cloud['fecha_factura'])
+        return df_cloud
+    except Exception as e:
+        st.error(f"Error al conectar con el servidor AWS/Supabase: {e}")
+        return pd.DataFrame()
 
 # RUTAS
-ruta_script = os.path.dirname(__file__)
-ruta_db = os.path.join(ruta_script, "..", "database", "ecommerce_sales.db")
+#ruta_script = os.path.dirname(__file__)
+#ruta_db = os.path.join(ruta_script, "..", "database", "ecommerce_sales.db")
 
 # CONEXION Y CARGA
-def cargar_datos():
-    if os.path.exists(ruta_db):
-        conn = sqlite3.connect(ruta_db)
-        df = pd.read_sql("SELECT * FROM ventas_procesadas", conn)
-        conn.close()
-        return df
-    return None
+#def cargar_datos():
+#    if os.path.exists(ruta_db):
+#        conn = sqlite3.connect(ruta_db)
+#        df = pd.read_sql("SELECT * FROM ventas_procesadas", conn)
+#        conn.close()
+#        return df
+#    return None
 
-df = cargar_datos()
+df = cargar_datos_cloud()
 
 if df is not None:
     st.title(" Dashboard de Ingenieria de Ventas")

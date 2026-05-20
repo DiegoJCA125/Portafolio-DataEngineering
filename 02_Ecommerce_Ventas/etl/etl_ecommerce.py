@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import sqlite3
 import os
+
 print("=" * 50)
 print("ETL - ANALISIS DE VENTAS E-COMMERCE")
 print("=" * 50)
@@ -38,7 +39,7 @@ df = df[(df['cantidad'] > 0) & (df['precio_unitario'] > 0)]
 
 # CONVERSION DE TIPOS D DATOS
 # SE CONVIERTE LA COLUMA DE FECHA DE TREXTO A OBJETO DINAMICOS
-df['df_factura'] = pd.to_datetime(df['fecha_factura'])
+df['fecha_factura'] = pd.to_datetime(df['fecha_factura'])
 
 # CREACIPON DE NUEVA METRICAS
 df['ingreso_total'] = df['cantidad'] * df['precio_unitario']
@@ -46,37 +47,83 @@ df['ingreso_total'] = df['cantidad'] * df['precio_unitario']
 print(f" -> Datos transformados. Filas Utiles: {df.shape[0]}")
 
 # ------------------------ CARGA -------------------------------------
-# SE DEFINE LA RUTA DE LA BD SQLite
-ruta_db = os.path.join(ruta_base, "../database/ecommerce_sales.db")
+from sqlalchemy import create_engine
+import pandas as pd
 
-# CREAMOS LA CAPERTA 'DATABASE' SI NO EXISTE
-os.makedirs(os.path.dirname(ruta_db), exist_ok = True)
+# 1  CADENA DE CONEXION DE SUPABASE (URI)
+# Correccion para el puerto 6543 (Pooler)
+
+# ------------------- CARGA -----------------------
+import os
+from dotenv import load_backend_env, load_dotenv
+#LEE EL ARCHIVO .env OCULTO EN MI PC
+load_dotenv()
+
+USUARIO = os.getenv("DB_USER")         # USUARIO DE SUPABASE
+CLAVE = os.getenv("DB_PASSWORD")       # CONTRASENA
+SERVIDOR = os.getenv("DB_HOST")        # EL HOST DEL POOLER
+PUERTO = os.getenv("DB_PORT")          # EL PUERTO DEL POOLER
+BASE_DATOS = os.getenv("DB_NAME")      # LA BASE DE DATOS POR DEFECTO
+
+DATABASE_URL = f"postgresql://{USUARIO}:{CLAVE}@{SERVIDOR}:{PUERTO}/{BASE_DATOS}"
+
+print("\n======================================================")
+print("INICIANDO CARGA A LA NUBE (POSTGRESQL - AWS)")
+print("======================================================")
 
 try:
-    # CREAMOS LA CONEXION (SI NO EXISTE EL ARCHIVO .db, SQLite LO CREA SOLO)
-    conn = sqlite3.connect(ruta_db)
+    # 2 - CREAR EL MOTOR DE CONEXION
+    engine = create_engine(DATABASE_URL)
 
-    # CARGAMOS EL DATAFRAME NE UNA TABLA SQL
-    # if_exists ='replace' SOBREESCRIBE LA TABLA SI YA EXISTE
-    df.to_sql('ventas_procesadas', conn, if_exists = 'replace', index = False)
+    # 3 - SUBIR EL DATAFRAME TRANSFORMADO A LA NUBE
+    print("-> Subiendo datos a la nube... Esto puede tardar unos minutos.")
 
-    print(f"\n EXITO!!! Base de Datos generada en: {ruta_db}")
+    df.to_sql(
+        name = 'ventas_procesadas',
+        con = engine,
+        if_exists = 'replace',
+        index = False,
+        chunksize = 10000
+    )
+
+    print("\n EXITO !!! Datos guardados en tu base de datos Cloud de Supabase.")
 
 except Exception as e:
-    print(f"Ocurrio un error en la carga: {e}")
+    print(f"\n ERROR al conectar o subir a la nube: {e}")
 
-finally:
+
+# SE DEFINE LA RUTA DE LA BD SQLite
+#
+#ruta_db = os.path.join(ruta_base, "../database/ecommerce_sales.db")
+
+# CREAMOS LA CAPERTA 'DATABASE' SI NO EXISTE
+#os.makedirs(os.path.dirname(ruta_db), exist_ok = True)
+
+#try:
+    # CREAMOS LA CONEXION (SI NO EXISTE EL ARCHIVO .db, SQLite LO CREA SOLO)
+#    conn = sqlite3.connect(ruta_db)
+
+#    # CARGAMOS EL DATAFRAME NE UNA TABLA SQL
+    # if_exists ='replace' SOBREESCRIBE LA TABLA SI YA EXISTE
+#    df.to_sql('ventas_procesadas', conn, if_exists = 'replace', index = False)
+
+#    print(f"\n EXITO!!! Base de Datos generada en: {ruta_db}")
+
+#except Exception as e:
+#    print(f"Ocurrio un error en la carga: {e}")
+
+#finally:
     #SIEMPRE CERRAR LA CONEXION PARA LIBERAR MEMORIA
-    conn.close()
-    print("Conexion a la base de datos cerrada-")
+#    conn.close()
+#    print("Conexion a la base de datos cerrada-")
 
 # Dentro de etl_ecommerce.py
-ruta_script = os.path.dirname(__file__)
+#ruta_script = os.path.dirname(__file__)
 # Esto sube un nivel desde 'etl' y entra a 'database'
-ruta_db = os.path.join(ruta_script, "..", "database", "ecommerce_sales.db")
+#ruta_db = os.path.join(ruta_script, "..", "database", "ecommerce_sales.db")
 
-os.makedirs(os.path.dirname(ruta_db), exist_ok=True)
-conn = sqlite3.connect(ruta_db)
-df.to_sql('ventas_procesadas', conn, if_exists='replace', index=False)
-conn.close()
-print(f"Base de datos guardada en: {os.path.abspath(ruta_db)}")
+#os.makedirs(os.path.dirname(ruta_db), exist_ok=True)
+#conn = sqlite3.connect(ruta_db)
+#df.to_sql('ventas_procesadas', conn, if_exists='replace', index=False)
+#conn.close()
+#print(f"Base de datos guardada en: {os.path.abspath(ruta_db)}")
