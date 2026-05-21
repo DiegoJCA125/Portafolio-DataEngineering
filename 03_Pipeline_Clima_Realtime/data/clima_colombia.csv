@@ -1,0 +1,6 @@
+ciudad,pais,temperatura_c,sensacion_termica_c,humedad_porcentaje,presion_hpa,velocidad_viento_m_s,estado_clima,fecha_extraccion
+Bogota,CO,15.41,15.17,83,1017,2.62,lluvia ligera,2026-05-21 11:41:01
+Medellín,CO,24.6,24.81,65,1012,3.09,muy nuboso,2026-05-21 11:41:02
+Santiago de Cali,CO,26.12,26.12,94,1010,1.79,muy nuboso,2026-05-21 11:41:03
+Barranquilla,CO,32.88,39.88,62,1008,3.09,niebla,2026-05-21 11:41:04
+Armenia,CO,23.2,23.61,78,1013,1.54,muy nuboso,2026-05-21 11:41:04
