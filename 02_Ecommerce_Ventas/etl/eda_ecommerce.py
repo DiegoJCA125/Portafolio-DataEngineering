@@ -99,5 +99,30 @@ try:
     plt.savefig(ruta_log, bbox_inches='tight')
     plt.close()
     print("? Grafico de transformacion guardado como 'histograma_log_ingresos.png'")
+
+    # -----------------------------------------------------------------
+    # 6. ANALISIS BIVARIADO: RELACION ENTRE CANTIDAD E INGRESO
+    # -----------------------------------------------------------------
+    print("-> Generando Grafco de Dispersion (Cantidad vs Ingreso)...")
+    plt.figure(figsize = (10, 6))
+
+    # SE CRUZA CANTIDAD DEL EJE X CON EL INGRESO ORIGINAL DEL EJE Y
+    # SE USA alpha=0.5 PARA QUE LOS PUNTOS SEAN SEMITRANSPARENTES Y VER DONDE HAY MAS ACUMULACION
+    sns.scatterplot(data=df, x='cantidad', y='ingreso_total', alpha=0.5, color='darkorange')
+
+    plt.title('Relacion entre Cantidad de Productos e Ingreso Total por Venta', fontsize=14)
+    plt.xlabel('Cantidad de Productos en la Factura')
+    plt.ylabel('Monto Total de la Ve nta ($)')
+
+    # GUARDAMOS EN AL CARPETA CORRESPONDIENTE
+    ruta_scatter = os.path.join(carpeta_actual, 'scatter_cantidad_ingreso.png')
+    plt.savefig(ruta_scatter, bbox_inches='tight')
+    plt.close()
+    print("? Grafico Bivariado guardado como 'scatter_cantidad_ingreso.png'")
+
+    print("\n=================================================")
+    print("Fase de Analisis Grafico Completada con Exito!!")
+    print("\n=================================================")
+    
 except Exception as e:
     print(f"Error!! en el proceso: {e}")
