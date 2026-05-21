@@ -14,7 +14,7 @@ El flujo de los datos sigue la siguiente estructura secuencial:
 3. **Almacenamiento (SQL):** Carga optimizada en una base de datos relacional SQLite ('ecommerce_sales.db').
 4. **Consumo (Streamlit & Plotly):** Creación de un Dashboard interactivo con filtros dinámicos por país y KPIs en tiempo real.
 
----
+----
 
 ## ?? Estructura del Repositorio
 
