@@ -65,7 +65,28 @@ try:
             
     st.write("-------------------------------------")
 
-    
+    # SECCION DE REPORTE ANALITICO CON PANDAS!!!!!
+    st.subheader(f"ESTADISTICAS ANALITICAS (PANDAS) - {activo_seleccionado}")
+
+    if len(df_activo) > 1:
+        # SE USA PANDAS PARA CALCULAR LOS MAXIMOS Y MINIMOS DEL ACTIVO SELECCIONADO
+        max_usd = df_activo["precio_usd"].max()
+        min_usd = df_activo["precio_usd"].min()
+
+        # CALCULAMOS EL PORCENTAJE DE CAMBIO HISTORICO ENTRE EL PRIMER REGISTRO Y EL ULTIMO
+        precio_inicial = df_activo["precio_usd"].iloc[0]
+        precio_final = df_activo["precio_usd"].iloc[-1]
+        cambio_porcentaje = ((precio_final - precio_inicial) / precio_inicial) * 100
+
+        # PINTAMOS LAS METRICAS ANALITICAS EN LA INTERFAZ
+        col_a, col_b, col_c = st.columns(3)
+        col_a.metric("Maximo Historico (USD)", f"${max_usd:,.2f} USD")
+        col_b.metric("Minimo Historico (USD)", f"${min_usd:,.2f} USD")
+        col_c.metric("Rendimiento Total del Pipeline", f"{cambio_porcentaje:,.2f}%", delta=f"{cambio_porcentaje:,.2f}%")
+    else:
+        st.info("Necesitamos que el robot de GitHub Actions acumule al menos 2 registros para calcular las estadisticas historicas.")
+
+    st.write("------------------------------------")
 
     # 5 GRAFICOS INTERACTIVOS (PLOTLY) - FUERA DEL BUCLE FOR
     col1, col2 = st.columns(2)
