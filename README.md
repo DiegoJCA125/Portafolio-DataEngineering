@@ -39,6 +39,12 @@ Data Engineer en formacion con experiencia en Python, SQL, ETL y visualizacion d
 - **Tecnologias:** Python, CoinGecko API, Pandas, SQLAlchemy, Supabase, GitHub Actions, Plotly, Streamlit
 - [Ver Proyecto](./04_Pipeline_Crypto_Streaming)
 
+### 05 - BIGDATA CON PYSPARK
+- Este proyecto demuestra la implementacion de una **Arquitectura Medallon (Lakehouse)** a gran escala utilizando 
+- **Apache Spark (PySpark)** para procesar, limpiar y consolidar de forma eficiente un dataset simulado de **1,000,000 de transacciones electronicas** de un e-commerce global.
+- Capa de servicio analitico que consume los datos finales estructurados a traves de un dashboard interactivo moderno. 
+
+
 #  Contacto
 - **LinkedIn:** https://www.linkedin.com/in/diegojca125/
 - **GitHub:** [github.com/DiegoJCA125](https://github.com/DiegoJCA125)
