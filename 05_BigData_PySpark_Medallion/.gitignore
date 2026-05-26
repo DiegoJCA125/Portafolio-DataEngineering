@@ -1,0 +1,4 @@
+# Ignorar bases de datos locales gigantes
+05_BigData_PySpark_Medallion/data_bronze/*.csv
+05_BigData_PySpark_Medallion/data_silver/
+05_BigData_PySpark_Medallion/data_gold/
