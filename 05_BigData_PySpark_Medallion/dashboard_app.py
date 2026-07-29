@@ -7,7 +7,7 @@ import plotly.express as px
 
 # RUTA DE LA ARQUITECTURA
 carpeta_base = os.path.dirname(os.path.abspath(__file__))
-ruta_gold_data = os.path.join(carpeta_base, "data", "gold", "resumen_ventas.csv")
+ruta_gold_data = os.path.join(carpeta_base, "data_gold", "reporte_kpis.csv")
 
 # CONFIGURACION DE LA PAGINA DE STREAMLIT
 Streamlit.set_page_config(
@@ -33,14 +33,14 @@ Streamlit.markdown("Analitica de rendimiento optimizada bajo la Arquitectura Med
 
 if df_gold is not None:
     # 1 SECCION DE METRICAS (KPIS)
-    ventas_totales = df_gold["Ventas_Totales"].sum() if "Ventas_Totales" in df_gold.columns else 0
-    transacciones_totales = df_gold["Transacciones_Totales"].sum() if "Transacciones_Totales" in df_gold.columns else 0
+    ventas_totales = df_gold["ingresos_totales"].sum() if "ingresos_totales" in df_gold.columns else 0
+    transacciones_totales = df_gold["unidades_vendidas"].sum() if "unidades_vendidas" in df_gold.columns else 0
 
     col1, col2, col3 = Streamlit.columns(3)
     with col1:
         Streamlit.metric(label="Ingresos Totales", value=f"$ {ventas_totales:,.2f}")
     with col2:
-        Streamlit.metric(label="Volumen de Transacciones", value=f"{transacciones_totales}:,")
+        Streamlit.metric(label="Volumen de Transacciones", value=f"{int(transacciones_totales):,}")
     with col3:
         Streamlit.metric(label="Infraestructura Backend", value="PySpark + Parquet")
 
@@ -51,19 +51,18 @@ if df_gold is not None:
 
     with col_izq:
         Streamlit.subheader("Ventas Totales por Categoria")
-        if "categoria" in df_gold.columns and "Ventas_Totales" in df_gold.columns:
+        if "categoria" in df_gold.columns and "ingresos_totales" in df_gold.columns:
             fig_bar = px.bar(
                 df_gold, 
-                x="categoria", 
-                y="Ventas_Totales", 
+                x="pais", 
+                y="ingresos_totales", 
                 color="categoria",
-                text_auto='.2s',
                 title="Distribución Financiera del Millón de Filas",
                 template="plotly_dark"
             )
             Streamlit.plotly_chart(fig_bar, use_container_width=True)
         else:
-            Streamlit.warning("Revisa las columnas del archivo Gold. Deben coincidir con 'categoria' y 'Ventas_Totales'")
+            Streamlit.warning("Revisa las columnas del archivo Gold. Deben coincidir con 'pais' y 'ingresos_totales'")
 
     with col_der:
         Streamlit.subheader("Vista Consolidada de Datos (Gold)")
