@@ -1,0 +1,11 @@
+pedido_id,cliente,ciudad,producto,precio,cantidad,fecha
+1,Ana Torres,Bogotá ,Laptop,3200000,1,2026-01-05
+2, Luis Gomez,Medellín,Mouse,45000,3,05/01/2026
+3,Ana Torres,Bogotá ,Laptop,3200000,1,2026-01-05
+4,Marta Ruiz,cali,Teclado,120000,2,2026-01-10
+5,carlos peña,Bogotá,Monitor,,1,12/01/2026
+6,Luis Gomez,Medellín,Mouse,45000,3,2026-01-15
+7,,Cali,Teclado,120000,1,2026-01-18
+8,Marta Ruiz,Cali,Monitor,850000,,2026-01-20
+9,Ana Torres,Bogotá,Teclado,120000,2,2026-02-01
+10,Carlos Peña,bogotá ,Mouse,45000,4,05/02/2026
